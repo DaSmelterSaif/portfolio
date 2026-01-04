@@ -1,1 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,96,468,79,-203,738,514,712&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
 @import "tailwindcss";
+
+@theme {
+  --color-bg-dark: hsl(222, 100%, 2%);
+  --color-bg: hsl(208, 100%, 7%);
+  --color-bg-db-light: hsl(207, 23%, 23%);
+  --color-bg-light: hsl(201, 100%, 11%);
+
+  --color-text: hsl(0, 0%, 95%);
+  --color-text-muted: hsl(0, 0%, 62%);
+
+  --color-highlight: hsl(194, 100%, 19%);
+  --color-border: hsl(197, 100%, 11%);
+  --color-border-muted: hsl(201, 100%, 6%);
+
+  --color-primary: hsl(108, 81%, 57%);
+  --color-secondary: hsl(279, 82%, 77%);
+
+  --color-danger: hsl(8, 79%, 66%);
+  --color-warning: hsl(54, 100%, 31%);
+  --color-success: hsl(156, 68%, 43%);
+  --color-info: hsl(217, 94%, 69%);
+}
+
+@layer components {
+  .text-nav-link {
+    font-family: "Inclusive Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+  }
+
+  .text-title {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64px;
+  }
+
+  .text-body {
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0, "wdth" 100, "GRAD" 0, "XOPQ" 96,
+      "XTRA" 468, "YOPQ" 79, "YTAS" 750, "YTDE" -203, "YTFI" 738, "YTLC" 514,
+      "YTUC" 712;
+    font-size: 32px;
+  }
+
+  .text-sec-title {
+    font-family: "Inclusive Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+  }
+
+  .text-sub-title {
+    font-family: "Inclusive Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+  }
+
+  .text-footer-link {
+    font-family: "Inclusive Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+  }
+
+  .quicksand-font {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+}

@@ -24,7 +24,11 @@
   --color-warning: hsl(54, 100%, 31%);
   --color-success: hsl(156, 68%, 43%);
   --color-info: hsl(217, 94%, 69%);
+
+  --breakpoint-xll: 120rem;
 }
+
+/* TODO - Remove font-size attributes */
 
 @layer components {
   .text-nav-link {
@@ -32,7 +36,6 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 40px;
   }
 
   .text-title {
@@ -40,7 +43,6 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 64px;
   }
 
   .text-body {

@@ -12,7 +12,8 @@ export default {
 </script>
 
 <template>
-    <!-- TODO - Fix vertical alignment (especially when pressing F11) -->
+    <!-- TODO - Fix vertical alignment (especially when pressing F11). -->
+    <!-- TODO - Fix h1 growing more than needed. -->
     <GenericSec
         class="flex flex-row xll:px-56 relative -z-20 overflow-hidden bg-radial-[at_100%_0%] from-[#002133] from-15% to-bg-dark to-65% h-[calc(100vh-125px)]">
 

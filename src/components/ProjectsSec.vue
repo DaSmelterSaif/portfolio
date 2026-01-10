@@ -20,7 +20,7 @@ export default {
         </div>
         <div class="flex flex-row justify-center gap-30 py-30">
             <div class="bg-bg aspect-16/10 w-[35vw] flex-1"></div>
-            <div class="flex flex-col items-start flex-1">
+            <div class="flex flex-col items-start flex-1 mt-10">
                 <h3 class="text-sub-title text-text mb-4">
                     Campus Management System
                 </h3>
@@ -31,7 +31,7 @@ export default {
             </div>
         </div>
         <div class="flex flex-row justify-center gap-30 py-30">
-            <div class="flex flex-col items-start flex-1">
+            <div class="flex flex-col items-start flex-1 mt-10">
                 <h3 class="text-sub-title text-text mb-4">
                     Work #2
                 </h3>
@@ -44,7 +44,7 @@ export default {
         </div>
         <div class="flex flex-row justify-center gap-30 py-30">
             <div class="bg-bg aspect-16/10 w-[35vw] flex-1"></div>
-            <div class="flex flex-col items-start flex-1">
+            <div class="flex flex-col items-start flex-1 mt-10">
                 <h3 class="text-sub-title text-text mb-4">
                     Work #3
                 </h3>

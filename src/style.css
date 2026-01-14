@@ -26,6 +26,8 @@
   --color-info: hsl(217, 94%, 69%);
 
   --breakpoint-xll: 120rem;
+
+  --text-3_5xl: 2rem;
 }
 
 /* TODO - Remove font-size attributes */
@@ -53,7 +55,6 @@
     font-variation-settings: "slnt" 0, "wdth" 100, "GRAD" 0, "XOPQ" 96,
       "XTRA" 468, "YOPQ" 79, "YTAS" 750, "YTDE" -203, "YTFI" 738, "YTLC" 514,
       "YTUC" 712;
-    font-size: 32px;
   }
 
   .text-sec-title {

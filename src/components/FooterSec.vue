@@ -9,9 +9,9 @@ export default {
 <template>
     <footer class="flex flex-row min-h-[35vh] p-15 bg-bg-db-light">
         <div class="flex-1">
-            <p class="text-body text-text mb-10">LOGO</p><br>
+            <p class="text-body text-text text-3.5xl mb-10">LOGO</p><br>
             <div>
-                <ul class="text-body text-text">
+                <ul class="text-body text-text text-3.5xl">
                     <li class="block pr-10 float-left">Link #1</li>
                     <li class="block px-10 float-left">Link #2</li>
                     <li class="block px-10 float-left">Link #3</li>

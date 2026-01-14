@@ -15,25 +15,35 @@ export default {
     <!-- TODO - Fix vertical alignment (especially when pressing F11). -->
     <!-- TODO - Fix h1 growing more than needed. -->
     <GenericSec
-        class="flex flex-row xll:px-56 relative -z-20 overflow-hidden bg-radial-[at_100%_0%] from-[#002133] from-15% to-bg-dark to-65% h-[calc(100vh-125px)]">
+        class="grid grid-cols-2 xll:px-56 relative -z-20 overflow-hidden bg-radial-[at_100%_0%] from-[#002133] from-15% to-bg-dark to-65% h-[calc(100vh-125px)]">
 
-        <div class="flex-7"> <!-- bg-blue-300/30 -->
-            <div class="mt-24 max-w-124 2xl:ml-20">
+        <div class="flex xl:justify-center items-center lg:justify-start w-11/12">
+            <!-- bg-blue-300/30 -->
+            <!-- mt-24 -->
+            <div class="mb-[12vh] max-w-124 xl:ml-20 lg:ml-5">
                 <div class="border-b-12 border-solid border-primary pb-4">
-                    <h1 class="text-title text-text text-5xl 2xl:text-7xl leading-tight">Building The Web</h1>
-                </div>
-                <p class="text-body text-text-muted mt-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <h1 class="text-title text-text text-[clamp(var(--text-3xl),6vw,var(--text-8xl))] leading-tight">
+                        Building The Web</h1>
+                </div> <!-- lg:text-xl xl:text-2xl -->
+                <p class="text-body text-[clamp(var(--text-xl),1.666667vw,var(--text-4xl))] text-text-muted mt-8">
+                    Lorem ipsum dolor sit
+                    amet,
+                    consectetur adipiscing
+                    elit.
                     Nullam
                     id semper erat. Vestibulum ante ipsum.</p>
             </div>
         </div>
 
-        <div class="flex justify-center items-start flex-10"> <!-- bg-amber-300/30 -->
-            <div class="bg-highlight w-97.75 aspect-391/557 xll:w-105 mt-18 ml-[10vw] 2xl:ml-[4vw]"></div>
+        <div class="justify-center items-start flex-10"> <!-- bg-amber-300/30 -->
+            <!-- w-105 -->
+            <div
+                class="bg-highlight xll:w-[23vw] 2xl:mt-[7vh] 2xl:ml-[8vw] 2xl:h-auto 2xl:w-97.75 2xl:aspect-391/557 xl:h-auto xl:w-90 xl:aspect-391/557 lg:mt-[13vh] lg:h-66 lg:w-auto lg:aspect-557/391 ml-[6vw]">
+            </div>
             <!-- 2xl:ml-[20vw] -->
         </div>
-
-        <p class="absolute -bottom-57 -left-37 -z-10 select-none quicksand-font text-[512px] text-[#002133]">
+        <!-- 32rem -->
+        <p class="absolute -bottom-57 -left-37 -z-10 select-none quicksand-font text-[32rem] text-[#002133]">
             &#60;&#47;&#62;
         </p>
     </GenericSec>

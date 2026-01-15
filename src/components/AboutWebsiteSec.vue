@@ -11,7 +11,7 @@ export default {
         <div class="w-92.5 h-113.25 bg-bg flex-1"></div>
         <div class="flex-1">
             <h2 class="text-sec-title text-text mb-4">Design of This Website</h2>
-            <p class="text-body text-3.5xl text-text-muted">
+            <p class="text-body text-body-font text-text-muted">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id semper erat. Vestibulum ante ipsum.
             </p>
         </div>

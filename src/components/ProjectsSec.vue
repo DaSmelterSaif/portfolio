@@ -14,7 +14,7 @@ export default {
             <h2 class="text-sec-title text-text">
                 Featured Work
             </h2>
-            <p class="text-body text-3.5xl text-text-muted max-w-[45vw]">
+            <p class="text-body text-body-font text-text-muted max-w-[45vw]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id semper erat. Vestibulum ante ipsum.
             </p>
         </div>
@@ -24,7 +24,7 @@ export default {
                 <h3 class="text-sub-title text-text mb-4">
                     Campus Management System
                 </h3>
-                <p class="text-body text-3.5xl text-text-muted">
+                <p class="text-body text-body-font text-text-muted">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id semper erat. Vestibulum ante
                     ipsum.
                 </p>
@@ -35,7 +35,7 @@ export default {
                 <h3 class="text-sub-title text-text mb-4">
                     Work #2
                 </h3>
-                <p class="text-body text-3.5xl text-text-muted">
+                <p class="text-body text-body-font text-text-muted">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id semper erat. Vestibulum ante
                     ipsum.
                 </p>
@@ -48,7 +48,7 @@ export default {
                 <h3 class="text-sub-title text-text mb-4">
                     Work #3
                 </h3>
-                <p class="text-body text-3.5xl text-text-muted">
+                <p class="text-body text-body-font text-text-muted">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id semper erat. Vestibulum ante
                     ipsum.
                 </p>

@@ -7,7 +7,7 @@ export default {
 </script>
 
 <template>
-    <section class="px-28">
+    <section class="md:px-28 p-0">
         <slot />
     </section>
 </template>

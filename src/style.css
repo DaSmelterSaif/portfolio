@@ -28,6 +28,8 @@
   --breakpoint-xll: 120rem;
 
   --text-3_5xl: 2rem;
+
+  --text-body-font: clamp(var(--text-xl), 1.666667vw, var(--text-4xl));
 }
 
 /* TODO - Remove font-size attributes */

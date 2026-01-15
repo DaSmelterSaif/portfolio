@@ -1,13 +1,9 @@
 <script lang="ts">
-import GenericSec from './generic_components/GenericSec.vue';
 
 export default {
     data() {
 
     },
-    components: {
-        GenericSec
-    }
 }
 </script>
 
@@ -17,21 +13,42 @@ export default {
 <!-- I removed @layer base... and it's working now. WHAT THNKAJFHKAJ -->
 
 <template>
-    <GenericSec class="bg-bg-dark w-full min-h-screen flex 2xl:flex-row flex-col">
+    <section id="about-me" class="bg-bg-dark w-full min-h-screen flex 2xl:flex-row flex-col md:px-28 p-0">
         <div class="flex-1"> <!-- bg-amber-300/30 -->
             <h2 class="text-sec-title text-text mt-37.5 2xl:text-left text-center">Who I am</h2>
-            <p class="text-body text-3.5xl text-text-muted 2xl:px-0 2xl:max-w-120 2xl:text-left text-center px-60">
+            <p class="text-body text-body-font text-text-muted 2xl:px-0 2xl:max-w-120 2xl:text-left text-center px-60">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id semper erat. Vestibulum ante ipsum.
             </p>
         </div>
         <!-- TODO - Make the positioning of the divs (that are to become images) consistent. -->
         <div class="flex-1 flex justify-center items-center"> <!-- bg-emerald-300/30 -->
-            <div class="relative w-126.5 h-142.75 bg-bg">
-                <div class="absolute top-24/32 left-3/32 -translate-1/2 w-46.75 h-42.5 bg-bg-light"></div>
-                <div class="absolute top-7/32 left-29/32 -translate-1/2 w-57.25 h-36.5 bg-bg-light"></div>
+            <div class="relative lg:w-(--image-1-base-w) md:w-(--image-1-md-w) w-(--image-1-sm-w) aspect-506/571 bg-bg">
+                <div
+                    class="absolute top-24/32 left-3/32 -translate-1/2 lg:w-(--image-2-base-w) md:w-(--image-2-md-w) w-(--image-2-sm-w) aspect-11/10 bg-bg-light">
+                </div>
+                <div
+                    class="absolute top-7/32 left-29/32 -translate-1/2 lg:w-(--image-3-base-w) md:w-(--image-3-md-w) w-(--image-3-sm-w) aspect-229/146 bg-bg-light">
+                </div>
             </div>
         </div>
-    </GenericSec>
+    </section>
 </template>
 
-<style scoped></style>
+<style scoped>
+#about-me {
+    --image-1-base-w: 31.625rem;
+    --image-2-base-w: 11.6875rem;
+    --image-3-base-w: 14.3125rem;
+
+    --image-md-scale: 0.75;
+    --image-sm-scale: 0.55;
+
+    --image-1-md-w: calc(var(--image-1-base-w)*var(--image-md-scale));
+    --image-2-md-w: calc(var(--image-2-base-w)*var(--image-md-scale));
+    --image-3-md-w: calc(var(--image-3-base-w)*var(--image-md-scale));
+
+    --image-1-sm-w: calc(var(--image-1-base-w)*var(--image-sm-scale));
+    --image-2-sm-w: calc(var(--image-2-base-w)*var(--image-sm-scale));
+    --image-3-sm-w: calc(var(--image-3-base-w)*var(--image-sm-scale));
+}
+</style>

@@ -14,7 +14,7 @@ export default {
                 <div class="flex flex-col items-center">
                     <div class="w-24 h-24 bg-bg rounded-full mb-8"></div>
                     <h3 class="text-sub-title text-text mb-4">Skill #1</h3>
-                    <p class="text-body text-3.5xl text-text-muted text-center">
+                    <p class="text-body text-body-font text-text-muted text-center">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id semper erat. Vestibulum ante
                         ipsum.
                     </p>
@@ -22,7 +22,7 @@ export default {
                 <div class="flex flex-col items-center">
                     <div class="w-24 h-24 bg-bg rounded-full mb-8"></div>
                     <h3 class="text-sub-title text-text mb-4">Skill #2</h3>
-                    <p class="text-body text-3.5xl text-text-muted text-center">
+                    <p class="text-body text-body-font text-text-muted text-center">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id semper erat. Vestibulum ante
                         ipsum.
                     </p>
@@ -30,7 +30,7 @@ export default {
                 <div class="flex flex-col items-center">
                     <div class="w-24 h-24 bg-bg rounded-full mb-8"></div>
                     <h3 class="text-sub-title text-text mb-4">Skill #3</h3>
-                    <p class="text-body text-3.5xl text-text-muted text-center">
+                    <p class="text-body text-body-font text-text-muted text-center">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id semper erat. Vestibulum ante
                         ipsum.
                     </p>

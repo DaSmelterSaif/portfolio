@@ -16,7 +16,8 @@ export default {
     <section id="about-me" class="bg-bg-dark w-full min-h-screen flex 2xl:flex-row flex-col md:px-28 p-0">
         <div class="flex-1"> <!-- bg-amber-300/30 -->
             <h2 class="text-sec-title text-text mt-37.5 2xl:text-left text-center">Who I am</h2>
-            <p class="text-body text-body-font text-text-muted 2xl:px-0 2xl:max-w-120 2xl:text-left text-center px-60">
+            <p
+                class="text-body text-body-font text-text-muted 2xl:px-0 2xl:max-w-120 2xl:text-left text-center lg:px-60 px-[10vw]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id semper erat. Vestibulum ante ipsum.
             </p>
         </div>

@@ -12,13 +12,13 @@ export default {
             <p class="text-body text-body-font text-text mb-10">LOGO</p><br>
             <div>
                 <ul class="text-body text-text text-body-font">
-                    <li class="block pr-10 float-left">Link #1</li>
-                    <li class="block px-10 float-left">Link #2</li>
-                    <li class="block px-10 float-left">Link #3</li>
+                    <li class="block md:pr-10 md:float-left py-4">Link #1</li>
+                    <li class="block md:px-10 md:float-left py-4">Link #2</li>
+                    <li class="block md:px-10 md:float-left py-4">Link #3</li>
                 </ul>
             </div>
         </div>
-        <div class="flex flex-col justify-center gap-1">
+        <div class="flex flex-col justify-end gap-1">
             <div class="w-14 aspect-square bg-bg-light rounded-full"></div>
             <div class="w-14 aspect-square bg-bg-light rounded-full"></div>
             <div class="w-14 aspect-square bg-bg-light rounded-full"></div>

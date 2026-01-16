@@ -22,7 +22,7 @@ export default {
             </p>
         </div>
         <!-- TODO - Make the positioning of the divs (that are to become images) consistent. -->
-        <div class="flex-1 flex justify-center items-center"> <!-- bg-emerald-300/30 -->
+        <div class="flex-1 flex justify-center items-center py-30"> <!-- bg-emerald-300/30 -->
             <div class="relative lg:w-(--image-1-base-w) md:w-(--image-1-md-w) w-(--image-1-sm-w) aspect-506/571 bg-bg">
                 <div
                     class="absolute top-24/32 left-3/32 -translate-1/2 lg:w-(--image-2-base-w) md:w-(--image-2-md-w) w-(--image-2-sm-w) aspect-11/10 bg-bg-light">

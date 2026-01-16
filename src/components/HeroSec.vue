@@ -14,11 +14,11 @@ export default {
         class="grid lg:grid-rows-1 lg:grid-cols-2 grid-rows-auto xll:px-56 lg:px-28 relative -z-20 overflow-hidden bg-radial-[at_100%_0%] from-[#002133] from-15% to-bg-dark to-65% min-h-[calc(100vh-125px)]">
 
         <div
-            class="flex xl:justify-center items-center lg:justify-start lg:mr-[8.333%] lg:ml-0 mx-[8.333vw] lg:min-h-full md:min-h-[75vh] min-h-[50vh]">
+            class="flex xl:justify-center items-center lg:mt-0 lg:justify-start lg:mr-[8.333%] lg:ml-0 mx-[8.333vw] lg:min-h-full mt-[5vh]">
             <!-- bg-blue-300/30 -->
             <div class="mb-[12vh] max-w-124 xl:ml-20 lg:ml-5">
                 <div class="border-b-12 border-solid border-primary pb-4">
-                    <h1 class="text-title text-text text-[clamp(var(--text-3xl),6vw,var(--text-8xl))] leading-tight">
+                    <h1 class="text-title text-text text-[clamp(var(--text-4xl),6vw,var(--text-8xl))] leading-tight">
                         Building The Web</h1>
                 </div> <!-- lg:text-xl xl:text-2xl -->
                 <p class="text-body text-body-font text-text-muted mt-8">

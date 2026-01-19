@@ -11,14 +11,15 @@ export default {
     <!-- TODO - Fix vertical alignment (especially when pressing F11). -->
     <!--// TODO - Fix h1 growing more than needed. -->
     <section
-        class="grid lg:grid-rows-1 lg:grid-cols-2 grid-rows-auto xll:px-56 lg:px-28 relative -z-20 overflow-hidden bg-radial-[at_100%_0%] from-[#002133] from-15% to-bg-dark to-65% min-h-[calc(100vh-125px)]">
+        class="grid lg:grid-rows-1 lg:grid-cols-2 grid-rows-auto xll:px-56 lg:px-28 relative -z-20 overflow-hidden bg-radial-[at_100%_0%] from-[#002133] from-15% to-bg-dark to-65% min-h-[calc(100vh-125px)] lg:py-0 py-[5vh]">
 
         <div
-            class="flex xl:justify-center items-center lg:mt-0 lg:justify-start lg:mr-[8.333%] lg:ml-0 mx-[8.333vw] lg:min-h-full mt-[5vh]">
+            class="flex xl:justify-center items-center lg:justify-start lg:mr-[8.333%] lg:ml-0 mx-[8.333vw] lg:min-h-full">
             <!-- bg-blue-300/30 -->
             <div class="mb-[12vh] max-w-124 xl:ml-20 lg:ml-5">
                 <div class="border-b-12 border-solid border-primary pb-4">
-                    <h1 class="text-title text-text text-[clamp(var(--text-4xl),6vw,var(--text-8xl))] leading-tight">
+                    <h1
+                        class="text-title text-text text-[clamp(var(--text-4xl),6vw+1rem,var(--text-8xl))] leading-tight">
                         Building The Web</h1>
                 </div> <!-- lg:text-xl xl:text-2xl -->
                 <p class="text-body text-body-font text-text-muted mt-8">
@@ -34,8 +35,15 @@ export default {
         <div class="flex justify-center items-center"> <!-- bg-amber-300/30 -->
             <!-- w-105 -->
             <div
-                class="bg-highlight xll:w-[23vw] 2xl:mt-[3vh] 2xl:ml-[8vw] 2xl:h-auto 2xl:w-97.75 2xl:aspect-391/557 xl:h-auto xl:w-90 xl:aspect-391/557 lg:mt-[9vh] lg:w-90 lg:h-auto lg:aspect-391/557 lg:ml-[6vw] md:w-[70vw] h-auto w-[80vw] m-0 aspect-391/557">
-                <div class="bg-bg-light w-full aspect-square rounded-full"></div>
+                class="xll:w-[23vw] 2xl:mt-[3vh] 2xl:ml-[8vw] 2xl:h-auto 2xl:w-97.75 2xl:aspect-391/557 xl:h-auto xl:w-90 xl:aspect-391/557 lg:mt-[9vh] lg:w-90 lg:ml-[6vw] w-[70vw] m-0">
+                <img class="w-full aspect-square rounded-full" src="/ProfilePic.jpg">
+                <div class="w-full border-b-7 border-highlight my-2">
+                    <p class="text-body-font text-body text-text">Saif Aldin Sunjaq</p>
+                </div>
+                <ul class="list-none text-body-font text-body text-text-muted">
+                    <li>Web Developer and Designer</li>
+                    <li>Frontend <span class="font-courier font-bold">&&</span> Backend</li>
+                </ul>
             </div>
             <!-- 2xl:ml-[20vw] -->
         </div>

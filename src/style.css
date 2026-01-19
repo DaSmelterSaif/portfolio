@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,96,468,79,-203,738,514,712&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap");
 @import "tailwindcss";
 
 @theme {
@@ -29,7 +30,9 @@
 
   --text-3_5xl: 2rem;
 
-  --text-body-font: clamp(var(--text-xl), 1.666667vw, var(--text-4xl));
+  --text-body-font: clamp(var(--text-xl), 0.75vw + 1rem, var(--text-4xl));
+
+  --font-courier: "Courier Prime", monospace;
 }
 
 /* TODO - Remove font-size attributes */
@@ -54,8 +57,17 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-variation-settings: "slnt" 0, "wdth" 100, "GRAD" 0, "XOPQ" 96,
-      "XTRA" 468, "YOPQ" 79, "YTAS" 750, "YTDE" -203, "YTFI" 738, "YTLC" 514,
+    font-variation-settings:
+      "slnt" 0,
+      "wdth" 100,
+      "GRAD" 0,
+      "XOPQ" 96,
+      "XTRA" 468,
+      "YOPQ" 79,
+      "YTAS" 750,
+      "YTDE" -203,
+      "YTFI" 738,
+      "YTLC" 514,
       "YTUC" 712;
   }
 

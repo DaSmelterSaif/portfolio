@@ -9,7 +9,7 @@ export default {
 <!-- TODO - Fix the divs (that are to become images) not scaling well to large screens. -->
 
 <template>
-    <section class="bg-bg-dark md:px-10 px-0">
+    <section class="bg-bg-dark md:px-10 px-0 py-[10vh]">
         <div class="flex flex-col items-center">
             <h2 class="text-sec-title text-text">
                 Featured Work
@@ -42,7 +42,7 @@ export default {
             </div>
             <div class="bg-bg aspect-16/10 max-w-[95vw] w-full flex-1"></div>
         </div>
-        <div class="flex lg:flex-row lg:items-start flex-col justify-center items-center gap-30 py-30">
+        <div class="flex lg:flex-row lg:items-start flex-col justify-center items-center gap-30 pt-30">
             <div class="bg-bg aspect-16/10 max-w-[95vw] w-full flex-1"></div>
             <div class="flex flex-col items-start flex-1 mt-10">
                 <h3 class="text-sub-title text-text mb-4">

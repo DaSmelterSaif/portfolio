@@ -7,7 +7,8 @@ export default {
 </script>
 
 <template>
-    <footer class="flex flex-row min-h-[35vh] p-15 bg-bg-db-light">
+    <!-- Height issues... -->
+    <footer class="flex flex-row p-15 bg-bg-db-light">
         <div class="flex-1">
             <p class="text-body text-body-font text-text mb-10">LOGO</p><br>
             <div>

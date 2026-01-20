@@ -8,10 +8,13 @@ export default {
 </script>
 
 <template>
-    <!-- TODO - Fix vertical alignment (especially when pressing F11). -->
+    <!--// TODO - Fix vertical alignment (especially when pressing F11). -->
     <!--// TODO - Fix h1 growing more than needed. -->
+    <!-- TODO - Look into max-width for image. -->
+    <!-- TODO - Look into square screen making the section large issue. -->
+    <!-- TODO - Fix header spacing when screen is size is small in other components. -->
     <section
-        class="grid lg:grid-rows-1 lg:grid-cols-2 grid-rows-auto xll:px-56 lg:px-28 relative -z-20 overflow-hidden bg-radial-[at_100%_0%] from-[#002133] from-15% to-bg-dark to-65% min-h-[calc(100vh-125px)] lg:py-0 py-[5vh]">
+        class="grid lg:grid-rows-1 lg:grid-cols-2 grid-rows-auto xll:px-56 lg:px-28 relative -z-20 overflow-hidden bg-radial-[at_100%_0%] from-[#002133] from-15% to-bg-dark to-65% xl:min-h-[calc(100vh-125px)] md:py-20 py-10">
 
         <div
             class="flex xl:justify-center items-center lg:justify-start lg:mr-[8.333%] lg:ml-0 mx-[8.333vw] lg:min-h-full">

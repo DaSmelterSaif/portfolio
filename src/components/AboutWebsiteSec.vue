@@ -9,7 +9,7 @@ export default {
 <template>
     <!-- Height issues... -->
     <section
-        class="flex gap-15 lg:flex-row flex-col-reverse justify-center items-center xl:px-20 lg:px-10 lg:gap-30 md:px-10 px-0 bg-bg-dark py-[5vh]">
+        class="flex gap-15 lg:flex-row flex-col-reverse justify-center items-center xl:px-20 lg:px-10 lg:gap-30 md:px-10 px-0 bg-bg-dark md:py-20 py-10">
         <!-- bg-bg-dark -->
         <div class="max-w-[95vw] w-full aspect-453/370 bg-bg flex-1"></div>
         <div class="flex-1">

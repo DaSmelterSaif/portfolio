@@ -15,7 +15,7 @@ export default {
 <template>
     <!-- TODO - Edit headings to use clamp() -->
     <!-- TODO - Edit vh paddings wit rem -->
-    <section id="about-me" class="bg-bg-dark w-full flex 2xl:flex-row flex-col md:px-28 p-0 py-[5vh]">
+    <section id="about-me" class="bg-bg-dark w-full flex 2xl:flex-row flex-col md:px-28 p-0 md:py-20 py-10">
         <div class="flex-1"> <!-- bg-amber-300/30 -->
             <h2 class="text-sec-title text-text 2xl:text-left text-center">Who I am</h2>
             <p

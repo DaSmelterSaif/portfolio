@@ -8,7 +8,7 @@ export default {
 
 <template>
     <!-- Height issues... -->
-    <section class="bg-bg-dark md:px-30 px-0 py-[5vh]">
+    <section class="bg-bg-dark md:px-30 px-0 md:py-20 py-10">
         <div>
             <h2 class="text-sec-title text-text mb-20">Core Skills</h2>
             <div class="grid lg:grid-rows-1 lg:grid-cols-3 grid-rows-3 gap-20">

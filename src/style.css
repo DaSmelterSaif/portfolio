@@ -31,32 +31,29 @@
   --text-3_5xl: 2rem;
 
   --text-body-font: clamp(var(--text-xl), 0.75vw + 1rem, var(--text-4xl));
+  --text-sec-title-font: clamp(
+    var(--text-4xl),
+    2.5vw + 1rem,
+    var(--text-5xl)
+  ); /* TBD */
+  --text-sub-title-font: clamp(
+    var(--text-xl),
+    1.5625vw + 1rem,
+    var(--text-3xl)
+  ); /* TBD */
 
+  --font-inclusive-sans: "Inclusive Sans", sans-serif;
+  --font-roboto-mono: "Roboto Mono", monospace;
+  --font-quicksand: "Quicksand", sans-serif;
   --font-courier: "Courier Prime", monospace;
 }
 
-/* TODO - Remove font-size attributes */
+/*// TODO - Remove font-size attributes */
 
 @layer components {
-  .text-nav-link {
-    font-family: "Inclusive Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  .text-title {
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  .text-body {
+  .font-roboto-flex {
+    /* Change name to .font-roboto-flex */
     font-family: "Roboto Flex", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
     font-variation-settings:
       "slnt" 0,
       "wdth" 100,
@@ -70,35 +67,10 @@
       "YTLC" 514,
       "YTUC" 712;
   }
+}
 
-  .text-sec-title {
-    font-family: "Inclusive Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 48px;
-  }
-
-  .text-sub-title {
-    font-family: "Inclusive Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 36px;
-  }
-
-  .text-footer-link {
-    font-family: "Inclusive Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 32px;
-  }
-
-  .quicksand-font {
-    font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-  }
+/* To be kept or removed. */
+::selection {
+  background-color: var(--color-primary);
+  color: var(--color-text);
 }

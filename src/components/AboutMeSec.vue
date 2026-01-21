@@ -14,12 +14,12 @@ export default {
 
 <template>
     <!-- TODO - Edit headings to use clamp() -->
-    <!-- TODO - Edit vh paddings wit rem -->
+    <!--// TODO - Edit vh paddings wit rem -->
     <section id="about-me" class="bg-bg-dark w-full flex 2xl:flex-row flex-col md:px-28 p-0 md:py-20 py-10">
         <div class="flex-1"> <!-- bg-amber-300/30 -->
-            <h2 class="text-sec-title text-text 2xl:text-left text-center">Who I am</h2>
+            <h2 class="font-inclusive-sans text-sec-title-font text-text 2xl:text-left text-center">Who I am</h2>
             <p
-                class="text-body text-body-font text-text-muted 2xl:px-0 2xl:max-w-120 2xl:text-left text-center lg:px-60 px-[10vw]">
+                class="font-roboto-flex text-body-font text-text-muted 2xl:px-0 2xl:max-w-120 2xl:text-left text-center lg:px-60 px-[10vw]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id semper erat. Vestibulum ante ipsum.
             </p>
         </div>

@@ -22,10 +22,10 @@ export default {
             <div class="mb-[12vh] max-w-124 xl:ml-20 lg:ml-5">
                 <div class="border-b-12 border-solid border-primary pb-4">
                     <h1
-                        class="text-title text-text text-[clamp(var(--text-4xl),6vw+1rem,var(--text-8xl))] leading-tight">
+                        class="font-roboto-mono text-text text-[clamp(var(--text-4xl),6vw+1rem,var(--text-8xl))] leading-tight">
                         Building The Web</h1>
                 </div> <!-- lg:text-xl xl:text-2xl -->
-                <p class="text-body text-body-font text-text-muted mt-8">
+                <p class="font-roboto-flex text-body-font text-text-muted mt-8">
                     Lorem ipsum dolor sit
                     amet,
                     consectetur adipiscing
@@ -41,9 +41,9 @@ export default {
                 class="xll:w-[23vw] 2xl:mt-[3vh] 2xl:ml-[8vw] 2xl:h-auto 2xl:w-97.75 2xl:aspect-391/557 xl:h-auto xl:w-90 xl:aspect-391/557 lg:mt-[9vh] lg:w-90 lg:ml-[6vw] w-[70vw] m-0">
                 <img class="w-full aspect-square rounded-full" src="/ProfilePic.jpg">
                 <div class="w-full border-b-7 border-highlight my-2">
-                    <p class="text-body-font text-body text-text">Saif Aldin Sunjaq</p>
+                    <p class="text-body-font font-roboto-flex text-text">Saif Aldin Sunjaq</p>
                 </div>
-                <ul class="list-none text-body-font text-body text-text-muted">
+                <ul class="list-none text-body-font font-roboto-flex text-text-muted">
                     <li>Web Developer and Designer</li>
                     <li>Frontend <span class="font-courier font-bold">&&</span> Backend</li>
                 </ul>
@@ -51,7 +51,7 @@ export default {
             <!-- 2xl:ml-[20vw] -->
         </div>
         <!-- 32rem -->
-        <p class="absolute -bottom-57 -left-37 -z-10 select-none quicksand-font text-[32rem] text-[#002133]">
+        <p class="absolute -bottom-57 -left-37 -z-10 select-none font-quicksand font-bold text-[32rem] text-[#002133]">
             &#60;&#47;&#62;
         </p>
     </section>

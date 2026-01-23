@@ -6,15 +6,16 @@ export default {
 }
 </script>
 
-<!-- TODO - Fix the divs (that are to become images) not scaling well to large screens. -->
+<!--// TODO - Fix the divs (that are to become images) not scaling well to large screens. -->
 
 <template>
     <section class="bg-bg-dark md:px-10 px-0 md:py-20 py-10">
-        <div class="flex flex-col items-center">
-            <h2 class="font-inclusive-sans text-sec-title-font text-text">
+        <div class="">
+            <h2 class="font-inclusive-sans text-sec-title-font md:text-center text-text">
                 Featured Work
             </h2>
-            <p class="font-roboto-flex text-body-font text-text-muted md:px-55 px-[13vw]">
+            <!-- TODO - Fix the padding issues with this p element. -->
+            <p class="font-roboto-flex text-body-font text-text-muted md:px-55 px-[13vw] md:text-center">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id semper erat. Vestibulum ante ipsum.
             </p>
         </div>

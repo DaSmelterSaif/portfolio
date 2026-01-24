@@ -7,7 +7,6 @@ export default {
 </script>
 
 <template>
-    <!-- Height issues... -->
     <!--// TODO (not really idk) - Fix inconsistent padding (here, it's 120, while in GenericSec, it's 20). -->
     <!--// It really only affects zooming in (extremly). It's not really practical, but could infer more
      info on how padding works. -->

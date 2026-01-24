@@ -13,18 +13,17 @@ export default {
 <!-- I removed @layer base... and it's working now. WHAT THNKAJFHKAJ -->
 
 <template>
-    <!-- TODO - Edit headings to use clamp() -->
-    <!--// TODO - Edit vh paddings wit rem -->
-    <section id="about-me" class="bg-bg-dark w-full flex 2xl:flex-row flex-col md:px-28 p-0 md:py-20 py-10">
+    <!--// TODO - Edit headings to use clamp() -->
+    <section id="about-me" class="bg-bg-dark w-full flex 2xl:flex-row flex-col md:px-28 p-10 md:py-20 py-10">
         <div class="flex-1"> <!-- bg-amber-300/30 -->
             <h2 class="font-inclusive-sans text-sec-title-font text-text 2xl:text-left md:text-center">Who I am</h2>
-            <!-- TODO - Fix the padding for the following p element. -->
+            <!--// TODO - Fix the padding for the following p element. -->
             <p
-                class="font-roboto-flex text-body-font text-text-muted 2xl:px-0 2xl:max-w-120 2xl:text-left md:text-center lg:px-60 px-[10vw]">
+                class="font-roboto-flex text-body-font text-text-muted 2xl:px-0 2xl:max-w-120 2xl:text-left md:text-center lg:px-60 md:px-[10vw]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id semper erat. Vestibulum ante ipsum.
             </p>
         </div>
-        <!-- TODO - Make the positioning of the divs (that are to become images) consistent. -->
+        <!--// TODO - Make the positioning of the divs (that are to become images) consistent. -->
         <div class="flex-1 flex justify-center items-center pt-30"> <!-- bg-emerald-300/30 -->
             <div class="relative lg:w-(--image-1-base-w) md:w-(--image-1-md-w) w-(--image-1-sm-w) aspect-506/571 bg-bg">
                 <div

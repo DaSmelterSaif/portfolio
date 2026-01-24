@@ -9,13 +9,13 @@ export default {
 <!--// TODO - Fix the divs (that are to become images) not scaling well to large screens. -->
 
 <template>
-    <section class="bg-bg-dark md:px-10 px-0 md:py-20 py-10">
+    <section class="bg-bg-dark md:px-10 px-10 md:py-20 py-10">
         <div class="">
             <h2 class="font-inclusive-sans text-sec-title-font md:text-center text-text">
                 Featured Work
             </h2>
-            <!-- TODO - Fix the padding issues with this p element. -->
-            <p class="font-roboto-flex text-body-font text-text-muted md:px-55 px-[13vw] md:text-center">
+            <!--// TODO - Fix the padding issues with this p element. -->
+            <p class="font-roboto-flex text-body-font text-text-muted md:px-55 px-0 md:text-center">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id semper erat. Vestibulum ante ipsum.
             </p>
         </div>
@@ -25,7 +25,7 @@ export default {
                 <h3 class="font-inclusive-sans text-sub-title-font text-text mb-4">
                     Campus Management System
                 </h3>
-                <p class="font-roboto-flex text-body-font text-text-muted md:px-0 px-[13vw]">
+                <p class="font-roboto-flex text-body-font text-text-muted">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id semper erat. Vestibulum ante
                     ipsum.
                 </p>
@@ -36,7 +36,7 @@ export default {
                 <h3 class="font-inclusive-sans text-sub-title-font text-text mb-4">
                     Work #2
                 </h3>
-                <p class="font-roboto-flex text-body-font text-text-muted md:px-0 px-[13vw]">
+                <p class="font-roboto-flex text-body-font text-text-muted">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id semper erat. Vestibulum ante
                     ipsum.
                 </p>
@@ -49,7 +49,7 @@ export default {
                 <h3 class="font-inclusive-sans text-sub-title-font text-text mb-4">
                     Work #3
                 </h3>
-                <p class="font-roboto-flex text-body-font text-text-muted md:px-0 px-[13vw]">
+                <p class="font-roboto-flex text-body-font text-text-muted">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id semper erat. Vestibulum ante
                     ipsum.
                 </p>

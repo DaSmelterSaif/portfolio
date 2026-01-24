@@ -11,7 +11,7 @@ export default {
 <template>
     <section class="bg-bg-dark md:px-10 px-10 md:py-20 py-10">
         <div class="">
-            <h2 class="font-inclusive-sans text-sec-title-font md:text-center text-text">
+            <h2 class="font-inclusive-sans text-sec-title-font md:text-center text-text mb-4">
                 Featured Work
             </h2>
             <!--// TODO - Fix the padding issues with this p element. -->
@@ -22,7 +22,7 @@ export default {
         <div class="flex lg:flex-row lg:items-start flex-col justify-center items-center gap-30 py-30">
             <div class="bg-bg aspect-16/10 max-w-[95vw] w-full flex-1"></div>
             <div class="flex flex-col items-start flex-1 mt-10">
-                <h3 class="font-inclusive-sans text-sub-title-font text-text mb-4">
+                <h3 class="font-inclusive-sans text-sub-title-font text-text mb-2">
                     Campus Management System
                 </h3>
                 <p class="font-roboto-flex text-body-font text-text-muted">
@@ -33,7 +33,7 @@ export default {
         </div>
         <div class="flex lg:flex-row lg:items-start flex-col-reverse justify-center items-center gap-30 py-30">
             <div class="flex flex-col items-start flex-1 mt-10">
-                <h3 class="font-inclusive-sans text-sub-title-font text-text mb-4">
+                <h3 class="font-inclusive-sans text-sub-title-font text-text mb-2">
                     Work #2
                 </h3>
                 <p class="font-roboto-flex text-body-font text-text-muted">
@@ -46,7 +46,7 @@ export default {
         <div class="flex lg:flex-row lg:items-start flex-col justify-center items-center gap-30 pt-30">
             <div class="bg-bg aspect-16/10 max-w-[95vw] w-full flex-1"></div>
             <div class="flex flex-col items-start flex-1 mt-10">
-                <h3 class="font-inclusive-sans text-sub-title-font text-text mb-4">
+                <h3 class="font-inclusive-sans text-sub-title-font text-text mb-2">
                     Work #3
                 </h3>
                 <p class="font-roboto-flex text-body-font text-text-muted">

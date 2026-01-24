@@ -16,7 +16,8 @@ export default {
     <!--// TODO - Edit headings to use clamp() -->
     <section id="about-me" class="bg-bg-dark w-full flex 2xl:flex-row flex-col md:px-28 p-10 md:py-20 py-10">
         <div class="flex-1"> <!-- bg-amber-300/30 -->
-            <h2 class="font-inclusive-sans text-sec-title-font text-text 2xl:text-left md:text-center">Who I am</h2>
+            <h2 class="font-inclusive-sans text-sec-title-font text-text 2xl:text-left md:text-center mb-4">
+                Who I am</h2>
             <!--// TODO - Fix the padding for the following p element. -->
             <p
                 class="font-roboto-flex text-body-font text-text-muted 2xl:px-0 2xl:max-w-120 2xl:text-left md:text-center lg:px-60 md:px-[10vw]">

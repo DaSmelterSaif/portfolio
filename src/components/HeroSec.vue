@@ -10,9 +10,9 @@ export default {
 <template>
     <!--// TODO - Look into max-width for image. -->
     <!--// TODO - Look into square screen making the section large issue. -->
-    <!-- TODO - Fix spacing between headers and paragraphs. -->
+    <!--// TODO - Fix spacing between headers and paragraphs. -->
     <section
-        class="grid lg:grid-rows-1 lg:grid-cols-2 grid-rows-auto xll:px-56 lg:px-28 relative -z-20 overflow-hidden bg-radial-[at_100%_0%] from-[#002133] from-15% to-bg-dark to-65% xl:min-h-[calc(100vh-125px)] md:py-20 py-10">
+        class="grid lg:grid-rows-1 lg:grid-cols-2 grid-rows-auto xll:px-56 lg:px-28 relative -z-20 overflow-hidden bg-radial-[at_100%_0%] from-[#002133] from-15% to-bg-dark to-65% xl:min-h-[calc(100vh-7.8125rem)] md:py-20 py-10">
         <div
             class="flex xl:justify-center items-center lg:justify-start lg:mr-[8.333%] lg:ml-0 mx-[8.333vw] lg:min-h-full   ">
             <!-- bg-blue-300/30 -->
@@ -22,7 +22,7 @@ export default {
                         class="font-roboto-mono text-text text-[clamp(var(--text-5xl),6vw+1rem,var(--text-8xl))] leading-tight">
                         Building The Web</h1>
                 </div>
-                <p class="font-roboto-flex text-body-font text-text-muted mt-8">
+                <p class="font-roboto-flex text-body-font text-text-muted mt-5">
                     Lorem ipsum dolor sit
                     amet,
                     consectetur adipiscing

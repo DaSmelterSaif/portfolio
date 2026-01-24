@@ -12,7 +12,7 @@ export default {
      info on how padding works. -->
     <section class="flex flex-col items-center justify-center xl:px-120 md:px-20 px-[10vw] bg-bg-light md:py-40 py-25">
         <h2 class="font-inclusive-sans text-sec-title-font text-text mb-4">Get in Touch</h2>
-        <p class="text-center font-roboto-flex text-body-font text-text-muted mb-3">
+        <p class="text-center font-roboto-flex text-body-font text-text-muted mb-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id semper erat. Vestibulum ante ipsum.
         </p>
         <div class="flex justify-center items-center w-35 h-12 bg-primary rounded-xl text-body">BUTTON</div>

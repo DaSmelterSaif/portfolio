@@ -9,6 +9,8 @@
   --color-bg-dark: hsl(222, 100%, 2%);
   --color-bg: hsl(208, 100%, 7%);
   --color-bg-db-light: hsl(207, 23%, 23%);
+  --color-bg-db-dark: hsl(207, 23%, 17%);
+  --color-bg-db-active: hsl(207, 23%, 13%);
   --color-bg-light: hsl(201, 100%, 11%);
 
   --color-text: hsl(0, 0%, 95%);
@@ -31,24 +33,18 @@
   --text-3_5xl: 2rem;
 
   --text-body-font: clamp(var(--text-xl), 0.75vw + 1rem, var(--text-4xl));
-  --text-sec-title-font: clamp(
-    var(--text-4xl),
-    2.5vw + 1rem,
-    var(--text-5xl)
-  ); /* TBD */
+  --text-sec-title-font: clamp(var(--text-4xl), 2.5vw + 1rem, var(--text-5xl));
   --text-sub-title-font: clamp(
     var(--text-xl),
     1.5625vw + 1rem,
     var(--text-3xl)
-  ); /* TBD */
+  );
 
   --font-inclusive-sans: "Inclusive Sans", sans-serif;
   --font-roboto-mono: "Roboto Mono", monospace;
   --font-quicksand: "Quicksand", sans-serif;
   --font-courier: "Courier Prime", monospace;
 }
-
-/*// TODO - Remove font-size attributes */
 
 @layer components {
   .font-roboto-flex {

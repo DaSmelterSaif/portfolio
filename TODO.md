@@ -3,13 +3,15 @@
 ## [src/components/NavBar.vue](src/components/NavBar.vue)
 
 - [ ] Change hamburger icon.
-- [ ] Make a variable for the height of the navbar.
+- [ ] Add underline to link buttons (except for LOGO) w/ transition.
+- [ ] Make the underline transition to fill on active.
+- [x] Make a variable for the height of the navbar.
 
 ## [src/components/HeroSec.vue](src/components/HeroSec.vue)
 
 - [x] Look into max-width for image.
 - [x] Look into square screen making the section large issue.
-- [ ] Fix spacing between headers and paragraphs.
+- [x] Fix spacing between headers and paragraphs.
 
 ## [src/components/AboutMeSec.vue](src/components/AboutMeSec.vue)
 

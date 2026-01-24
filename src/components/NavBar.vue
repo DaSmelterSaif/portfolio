@@ -15,21 +15,24 @@ export default {
      I have a preference for having margin for the entire section, and
      independant margin properties for the separate elements as needed. -->
     <!-- TODO - Change hamburger icon. -->
-    <!-- TODO - Make a variable for the height of the navbar -->
+    <!-- TODO - Add underline to link buttons (except for LOGO) w/ transition. -->
+    <!-- TODO - Make the underline transition to fill on active. -->
+    <!--// TODO - Make a variable for the height of the navbar -->
     <nav class="flex flex-row w-full md:h-31.25 h-24 bg-bg-db-light text-text select-none">
         <a href="#"
-            class="font-inclusive-sans md:w-58.75 w-44 flex justify-center items-center text-[clamp(2rem,2.5vw+1rem,2.75rem)]">LOGO</a>
+            class="font-inclusive-sans md:w-58.75 w-44 flex justify-center items-center text-[clamp(2rem,2.5vw+1rem,2.75rem)] active:bg-primary">LOGO</a>
         <div class="md:flex flex-row hidden lg:gap-0 gap-4 flex-1">
             <a href="#"
-                class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(2rem,2.5vw+1rem,2.75rem)]">BTN1</a>
+                class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(2rem,2.5vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active">BTN1</a>
             <a href="#"
-                class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(2rem,2.5vw+1rem,2.75rem)]">BTN2</a>
+                class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(2rem,2.5vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active">BTN2</a>
             <a href="#"
-                class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(2rem,2.5vw+1rem,2.75rem)]">BTN3</a>
+                class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(2rem,2.5vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active">BTN3</a>
             <a href="#"
-                class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(2rem,2.5vw+1rem,2.75rem)]">BTN4</a>
+                class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(2rem,2.5vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active">BTN4</a>
         </div>
-        <button class="font-inclusive-sans text-[2.5rem] md:hidden inline-block ml-auto w-23.5">☰</button>
+        <button
+            class="font-inclusive-sans text-[2.5rem] md:hidden inline-block ml-auto w-23.5 hover:bg-bg-db-dark active:bg-bg-db-active">☰</button>
     </nav>
 </template>
 

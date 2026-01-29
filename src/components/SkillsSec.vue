@@ -7,7 +7,7 @@ export default {
 </script>
 
 <template>
-    <section class="bg-bg-dark lg:px-30 px-10 md:py-20 py-10">
+    <section id="skills" class="bg-bg-dark lg:px-30 px-10 md:py-20 py-10">
         <div>
             <h2 class="font-inclusive-sans text-sec-title-font text-text mb-20">Core Skills</h2>
             <div class="grid lg:grid-rows-1 lg:grid-cols-3 grid-rows-3 gap-20">

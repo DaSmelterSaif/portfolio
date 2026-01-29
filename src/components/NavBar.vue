@@ -22,14 +22,14 @@ export default {
         <a href="#"
             class="font-inclusive-sans md:w-58.75 w-44 flex justify-center items-center text-[clamp(2rem,2.5vw+1rem,2.75rem)] active:bg-primary">LOGO</a>
         <div class="md:flex flex-row hidden lg:gap-0 gap-4 flex-1">
-            <a href="#"
-                class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(2rem,2.5vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active">BTN1</a>
-            <a href="#"
-                class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(2rem,2.5vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active">BTN2</a>
-            <a href="#"
-                class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(2rem,2.5vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active">BTN3</a>
-            <a href="#"
-                class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(2rem,2.5vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active">BTN4</a>
+            <a href="#about-me"
+                class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(2rem,2.5vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active">ME</a>
+            <a href="#projects"
+                class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(2rem,2.5vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active">WORK</a>
+            <a href="#skills"
+                class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(2rem,2.5vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active">SKILLS</a>
+            <a href="#contact-us"
+                class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(2rem,2.5vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active">CONTACT</a>
         </div>
         <button
             class="font-inclusive-sans text-[2.5rem] md:hidden inline-block ml-auto w-23.5 hover:bg-bg-db-dark active:bg-bg-db-active">☰</button>

@@ -1,9 +1,13 @@
 <script lang="ts">
+import ButtonLink from './generic_components/ButtonLink.vue';
 
 export default {
     data() {
 
     },
+    components: {
+        ButtonLink
+    }
 }
 </script>
 
@@ -12,11 +16,11 @@ export default {
     <!--// TODO - Look into square screen making the section large issue. -->
     <!--// TODO - Fix spacing between headers and paragraphs. -->
     <section
-        class="grid lg:grid-rows-1 lg:grid-cols-2 grid-rows-auto xll:px-56 lg:px-28 relative -z-20 overflow-hidden bg-radial-[at_100%_0%] from-[#002133] from-15% to-bg-dark to-65% xl:min-h-[calc(100vh-7.8125rem)] md:py-20 py-10">
+        class="grid lg:grid-rows-1 lg:grid-cols-2 grid-rows-auto xll:px-56 lg:px-28 relative z-10 overflow-hidden bg-radial-[at_100%_0%] from-[#002133] from-15% to-bg-dark to-65% xl:min-h-[calc(100vh-7.8125rem)] md:py-20 py-10">
         <div
-            class="flex xl:justify-center items-center lg:justify-start lg:mr-[8.333%] lg:ml-0 mx-[8.333vw] lg:min-h-full   ">
+            class="flex xl:justify-center items-center lg:justify-start lg:mr-[8.333%] lg:ml-0 mx-[8.333vw] lg:min-h-full">
             <!-- bg-blue-300/30 -->
-            <div class="mb-[12vh] max-w-124 xl:ml-20 lg:ml-5">
+            <div class="mb-[4vh] max-w-124 xl:ml-20 lg:ml-5 flex flex-col items-start">
                 <div class="border-b-12 border-solid border-primary pb-4">
                     <h1
                         class="font-roboto-mono text-text text-[clamp(var(--text-5xl),6vw+1rem,var(--text-8xl))] leading-tight">
@@ -29,6 +33,10 @@ export default {
                     elit.
                     Nullam
                     id semper erat. Vestibulum ante ipsum.</p>
+                <div class="flex mt-3 gap-4">
+                    <ButtonLink href="" variant="primary">BUTTON</ButtonLink>
+                    <ButtonLink href="" variant="tertiary">BUTTON</ButtonLink>
+                </div>
             </div>
         </div>
         <div class="flex justify-center items-center"> <!-- bg-amber-300/30 -->

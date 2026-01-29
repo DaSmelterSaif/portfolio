@@ -9,7 +9,7 @@ export default {
 <!--// TODO - Fix the divs (that are to become images) not scaling well to large screens. -->
 
 <template>
-    <section class="bg-bg-dark md:px-10 px-10 md:py-20 py-10">
+    <section id="projects" class="bg-bg-dark md:px-10 px-10 md:py-20 py-10">
         <div class="">
             <h2 class="font-inclusive-sans text-sec-title-font md:text-center text-text mb-4">
                 Featured Work

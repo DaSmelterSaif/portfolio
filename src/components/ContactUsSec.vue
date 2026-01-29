@@ -19,9 +19,9 @@ export default {
         class="flex flex-col items-center justify-center xl:px-120 md:px-20 px-[10vw] bg-bg-light md:py-40 py-25">
         <h2 class="font-inclusive-sans text-sec-title-font text-text mb-4">Get in Touch</h2>
         <p class="text-center font-roboto-flex text-body-font text-text-muted mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id semper erat. Vestibulum ante ipsum.
+            Got a project in mind? Please drop an email so we can discuss further.
         </p>
-        <ButtonLink href="" variant="primary">BUTTON</ButtonLink>
+        <ButtonLink href="" variant="primary">DROP AN EMAIL</ButtonLink>
     </section>
 </template>
 

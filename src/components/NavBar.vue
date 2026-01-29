@@ -23,7 +23,8 @@ export default {
             class="font-inclusive-sans md:w-58.75 w-44 flex justify-center items-center text-[clamp(2rem,2.5vw+1rem,2.75rem)] active:bg-primary">LOGO</a>
         <div class="md:flex flex-row hidden lg:gap-0 gap-4 flex-1">
             <a href="#about-me"
-                class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(2rem,2.5vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active">ME</a>
+                class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(2rem,2.5vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active">ABOUT
+                ME</a>
             <a href="#projects"
                 class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(2rem,2.5vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active">WORK</a>
             <a href="#skills"

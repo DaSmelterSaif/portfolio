@@ -27,15 +27,10 @@ export default {
                         Building The Web</h1>
                 </div>
                 <p class="font-roboto-flex text-body-font text-text-muted mt-5">
-                    Lorem ipsum dolor sit
-                    amet,
-                    consectetur adipiscing
-                    elit.
-                    Nullam
-                    id semper erat. Vestibulum ante ipsum.</p>
+                    Here to help you build your own responsive, user-friendly website.</p>
                 <div class="flex mt-3 gap-4">
-                    <ButtonLink href="" variant="primary">BUTTON</ButtonLink>
-                    <ButtonLink href="" variant="tertiary">BUTTON</ButtonLink>
+                    <ButtonLink href="" variant="primary">MY CV</ButtonLink>
+                    <ButtonLink href="" variant="secondary">GET IN TOUCH</ButtonLink>
                 </div>
             </div>
         </div>

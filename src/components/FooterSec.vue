@@ -19,7 +19,8 @@ export default {
             </div>
         </div>
         <div class="flex flex-col justify-end gap-1">
-            <div class="w-14 aspect-square bg-bg-light rounded-full"></div>
+            <div class="w-14 aspect-square bg-bg-light rounded-full"><a href="https://github.com/DaSmelterSaif"><img
+                        src="/social-media-logos/github-logo.svg" alt="GitHub Logo" class="w-full"></a></div>
             <div class="w-14 aspect-square bg-bg-light rounded-full"></div>
             <div class="w-14 aspect-square bg-bg-light rounded-full"></div>
         </div>

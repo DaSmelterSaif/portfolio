@@ -16,7 +16,7 @@ export default {
             </h2>
             <!--// TODO - Fix the padding issues with this p element. -->
             <p class="font-roboto-flex text-body-font text-text-muted md:px-55 px-0 md:text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id semper erat. Vestibulum ante ipsum.
+                Here is a list of my previous work. I used a collection of skills, including ____.
             </p>
         </div>
         <div class="flex lg:flex-row lg:items-start flex-col justify-center items-center gap-30 py-30">
@@ -26,8 +26,8 @@ export default {
                     Campus Management System
                 </h3>
                 <p class="font-roboto-flex text-body-font text-text-muted">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id semper erat. Vestibulum ante
-                    ipsum.
+                    An AI-powered campus management system that helps you find what you need using the chatbot
+                    and can even fill in the forms for you if requested.<br><br> Work completed on: December 2025.
                 </p>
             </div>
         </div>
@@ -47,7 +47,7 @@ export default {
             <div class="bg-bg aspect-16/10 max-w-[95vw] w-full flex-1"></div>
             <div class="flex flex-col items-start flex-1 mt-10">
                 <h3 class="font-inclusive-sans text-sub-title-font text-text mb-2">
-                    Work #3
+                    This Site
                 </h3>
                 <p class="font-roboto-flex text-body-font text-text-muted">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id semper erat. Vestibulum ante

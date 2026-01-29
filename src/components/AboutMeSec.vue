@@ -21,7 +21,8 @@ export default {
             <!--// TODO - Fix the padding for the following p element. -->
             <p
                 class="font-roboto-flex text-body-font text-text-muted 2xl:px-0 2xl:max-w-120 2xl:text-left md:text-center lg:px-60 md:px-[10vw]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id semper erat. Vestibulum ante ipsum.
+                I’m a full-stack web developer, web designer, and programmer. I build functional websites using
+                technologies like Vue.js, along with the backend using Spring Boot or Flask. <br><br>
             </p>
         </div>
         <!--// TODO - Make the positioning of the divs (that are to become images) consistent. -->

@@ -45,10 +45,10 @@
 
   --text-3_5xl: 2rem;
 
-  --text-body-font: clamp(var(--text-xl), 0.75vw + 1rem, var(--text-4xl));
+  --text-body-font: clamp(var(--text-sm), 0.75vw + 1rem, var(--text-4xl));
   --text-sec-title-font: clamp(var(--text-4xl), 2.5vw + 1rem, var(--text-5xl));
   --text-sub-title-font: clamp(
-    var(--text-xl),
+    var(--text-lg),
     1.5625vw + 1rem,
     var(--text-3xl)
   );

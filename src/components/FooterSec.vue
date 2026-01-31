@@ -32,7 +32,11 @@ export default {
                     <img src="/social-media-logos/linkedin-logo.png" alt="LinkedIn Logo">
                 </a>
             </div>
-            <div class="w-14 aspect-square bg-bg-light rounded-full"></div>
+            <div class="w-14 aspect-square bg-bg-light rounded-full">
+                <a href="mailto:saifaldinsunjaq@gmail.com" class="flex items-center justify-center w-full h-full p-1">
+                    <font-awesome-icon icon="fa-solid fa-envelope" class="text-text text-4xl" />
+                </a>
+            </div>
         </div>
     </footer>
 </template>

@@ -12,7 +12,9 @@ export default {
             <h2 class="font-inclusive-sans text-sec-title-font text-text mb-20">Core Skills</h2>
             <div class="grid lg:grid-rows-1 lg:grid-cols-3 grid-rows-3 gap-20">
                 <div class="flex flex-col items-center">
-                    <div class="w-24 h-24 bg-bg rounded-full mb-8"></div>
+                    <div class="w-24 h-24 bg-bg rounded-full mb-8 flex justify-center items-center">
+                        <font-awesome-icon icon="fa-solid fa-layer-group" class="text-text-muted text-6xl" />
+                    </div>
                     <h3 class="font-inclusive-sans text-sub-title-font text-text mb-4">Full-Stack</h3>
                     <p class="font-roboto-flex text-body-font text-text-muted text-center md:px-0 px-[13vw]">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id semper erat. Vestibulum ante
@@ -20,7 +22,9 @@ export default {
                     </p>
                 </div>
                 <div class="flex flex-col items-center">
-                    <div class="w-24 h-24 bg-bg rounded-full mb-8"></div>
+                    <div class="w-24 h-24 bg-bg rounded-full mb-8 flex justify-center items-center">
+                        <font-awesome-icon icon="fa-solid fa-code" class="text-text-muted text-6xl" />
+                    </div>
                     <h3 class="font-inclusive-sans text-sub-title-font text-text mb-4">Programming</h3>
                     <p class="font-roboto-flex text-body-font text-text-muted text-center md:px-0 px-[13vw]">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id semper erat. Vestibulum ante

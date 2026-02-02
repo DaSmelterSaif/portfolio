@@ -6,15 +6,13 @@ export default {
 }
 </script>
 
-<!--// TODO - Fix the divs (that are to become images) not scaling well to large screens. -->
-
 <template>
+    <!-- TODO - Change the structure ordering of images and titles+paragraphs, and make CSS control the order. -->
     <section id="projects" class="bg-bg-dark md:px-10 px-10 md:py-20 sm:py-10 py-30">
         <div class="">
             <h2 class="font-inclusive-sans text-sec-title-font md:text-center text-text mb-4">
                 Featured Work
             </h2>
-            <!--// TODO - Fix the padding issues with this p element. -->
             <p class="font-roboto-flex text-body-font text-text-muted xl:px-55 lg:px-0 md:pr-0 pr-20 md:text-center">
                 Here is a list of my previous work. I used a collection of skills, including design, programming,
                 brainstorming, and problem-solving.
@@ -22,7 +20,7 @@ export default {
         </div>
         <div class="flex lg:flex-row lg:items-start flex-col justify-center items-center sm:gap-30 gap-0 py-30">
             <div class="bg-bg aspect-16/10 max-w-[95vw] w-full flex-1"></div>
-            <div class="flex flex-col items-start flex-1 mt-10">
+            <div class="flex flex-col items-start flex-1 mt-10 w-full">
                 <h3 class="font-inclusive-sans text-sub-title-font text-text mb-2">
                     Campus Management System
                 </h3>
@@ -35,7 +33,7 @@ export default {
             </div>
         </div>
         <div class="flex lg:flex-row lg:items-start flex-col-reverse justify-center items-center sm:gap-30 gap-0 py-30">
-            <div class="flex flex-col items-start flex-1 mt-10">
+            <div class="flex flex-col items-start flex-1 mt-10 w-full">
                 <h3 class="font-inclusive-sans text-sub-title-font text-text mb-2">
                     Tic-Tac-Toe Discord Bot
                 </h3>
@@ -49,7 +47,7 @@ export default {
         </div>
         <div class="flex lg:flex-row lg:items-start flex-col justify-center items-center sm:gap-30 gap-0 pt-30">
             <div class="bg-bg aspect-16/10 max-w-[95vw] w-full flex-1"></div>
-            <div class="flex flex-col items-start flex-1 mt-10">
+            <div class="flex flex-col items-start flex-1 mt-10 w-full">
                 <h3 class="font-inclusive-sans text-sub-title-font text-text mb-2">
                     This Website
                 </h3>

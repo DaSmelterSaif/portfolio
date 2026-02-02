@@ -30,7 +30,7 @@ export default {
                     Here to help you build your own responsive, user-friendly website.</p>
                 <div class="flex mt-3 gap-4">
                     <ButtonLink href="" variant="primary">MY CV</ButtonLink>
-                    <ButtonLink href="" variant="secondary">GET IN TOUCH</ButtonLink>
+                    <ButtonLink href="#contact-us" variant="secondary">GET IN TOUCH</ButtonLink>
                 </div>
             </div>
         </div>

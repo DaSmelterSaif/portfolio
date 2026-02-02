@@ -16,6 +16,7 @@
 ## [src/components/ProjectsSec.vue](src/components/ProjectsSec.vue)
 
 - [x] Fix the padding issues with this p element.
+      = [ ] Change the structure ordering of images and titles+paragraphs, and make CSS control the order.
 
 ## [src/components/SkillsSec.vue](src/components/SkillsSec.vue)
 
@@ -23,4 +24,4 @@
 
 ## [src/components/ContactUsSec.vue](src/components/ContactUsSec.vue)
 
-- [ ] Fix buttons growing on small screens.
+- [x] Fix buttons growing on small screens.

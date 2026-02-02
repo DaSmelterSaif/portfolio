@@ -34,7 +34,7 @@ export default {
             </div>
             <div class="w-14 aspect-square bg-bg-light rounded-full">
                 <a href="mailto:saifaldinsunjaq@gmail.com" class="flex items-center justify-center w-full h-full p-1">
-                    <font-awesome-icon icon="fa-solid fa-envelope" class="text-text text-4xl" />
+                    <font-awesome-icon icon="fa-solid fa-envelope" class="text-text text-[2.5rem]" />
                 </a>
             </div>
         </div>

@@ -16,7 +16,8 @@ export default {
             </h2>
             <!--// TODO - Fix the padding issues with this p element. -->
             <p class="font-roboto-flex text-body-font text-text-muted xl:px-55 lg:px-0 md:pr-0 pr-20 md:text-center">
-                Here is a list of my previous work. I used a collection of skills, including ____.
+                Here is a list of my previous work. I used a collection of skills, including design, programming,
+                brainstorming, and problem-solving.
             </p>
         </div>
         <div class="flex lg:flex-row lg:items-start flex-col justify-center items-center sm:gap-30 gap-0 py-30">
@@ -26,19 +27,22 @@ export default {
                     Campus Management System
                 </h3>
                 <p class="font-roboto-flex text-body-font text-text-muted">
-                    An AI-powered campus management system that helps you find what you need using the chatbot
-                    and can even fill in the forms for you if requested.<br><br> Work completed on: December 2025.
+                    An AI-based campus management system that leads you to the services you are looking for and
+                    auto-fills the form.<br><br>
+                    Project timespan: October - December, 2025.
+
                 </p>
             </div>
         </div>
         <div class="flex lg:flex-row lg:items-start flex-col-reverse justify-center items-center sm:gap-30 gap-0 py-30">
             <div class="flex flex-col items-start flex-1 mt-10">
                 <h3 class="font-inclusive-sans text-sub-title-font text-text mb-2">
-                    Work #2
+                    Tic-Tac-Toe Discord Bot
                 </h3>
                 <p class="font-roboto-flex text-body-font text-text-muted">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id semper erat. Vestibulum ante
-                    ipsum.
+                    A Discord bot that can never lose a game of tic-tac-toe.<br><br>
+                    Project finished: July, 2025
+
                 </p>
             </div>
             <div class="bg-bg aspect-16/10 max-w-[95vw] w-full flex-1"></div>
@@ -47,11 +51,12 @@ export default {
             <div class="bg-bg aspect-16/10 max-w-[95vw] w-full flex-1"></div>
             <div class="flex flex-col items-start flex-1 mt-10">
                 <h3 class="font-inclusive-sans text-sub-title-font text-text mb-2">
-                    This Site
+                    This Website
                 </h3>
                 <p class="font-roboto-flex text-body-font text-text-muted">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id semper erat. Vestibulum ante
-                    ipsum.
+                    My portfolio website. It shows my work and what I do.<br><br>
+                    Project finished: February, 2025
+
                 </p>
             </div>
         </div>

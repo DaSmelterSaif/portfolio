@@ -13,7 +13,7 @@ export default {
 <!-- I removed @layer base... and it's working now. WHAT THNKAJFHKAJ -->
 
 <template>
-    <!--// TODO - Edit headings to use clamp() -->
+    <!-- TODO - Fix the h2 header being too much close to the top. -->
     <section id="about-me" class="bg-bg-dark w-full flex 2xl:flex-row flex-col md:px-28 p-10 md:py-20 sm:py-10 py-30">
         <div class="flex-1"> <!-- bg-amber-300/30 -->
             <h2 class="font-inclusive-sans text-sec-title-font text-text 2xl:text-left md:text-center mb-4">
@@ -21,8 +21,8 @@ export default {
             <!--// TODO - Fix the padding for the following p element. -->
             <p
                 class="font-roboto-flex text-body-font text-text-muted 2xl:px-0 2xl:max-w-120 2xl:text-left md:text-center xl:px-60 md:px-0 pr-20">
-                I’m a full-stack web developer, web designer, and programmer. I build functional websites using
-                technologies like Vue.js, along with the backend using Spring Boot or Flask. <br><br>
+                I’m a web designer and programmer, specializing in building functional websites and developing their
+                backend systems. I also have experience with Arduinos and can create web-based games.<br><br>
             </p>
         </div>
         <!--// TODO - Make the positioning of the divs (that are to become images) consistent. -->

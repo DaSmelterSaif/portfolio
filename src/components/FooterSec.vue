@@ -7,7 +7,8 @@ export default {
 </script>
 
 <template>
-    <!-- TODO - Fix social links -->
+    <!--// TODO - Fix social links -->
+    <!-- TODO - Make the links functional or remove them. -->
     <footer class="flex flex-row md:p-15 p-9 bg-bg-db-light">
         <div class="flex-1">
             <p class="font-inclusive-sans text-body-font text-text mb-10">LOGO</p><br>

@@ -16,7 +16,7 @@ export default {
     },
     computed: {
         buttonClasses(): string {
-            const baseClasses = "text-2xl font-roberto-flex rounded-2xl tracking-tighter select-none";
+            const baseClasses = "text-[clamp(var(--text-lg),0.5vw+1em,var(--text-2xl))] font-roberto-flex rounded-2xl tracking-tighter select-none";
             const variantClasses = {
                 primary: "px-3.5 py-3.25 bg-primary hover:bg-btn-hover text-black selection:bg-secondary active:bg-btn-clicked focus:bg-btn-focused focus:outline-primary focus:outline-3",
                 secondary: "px-[calc(0.6875rem-1px)] py-[calc(0.5625rem-1px)] bg-bg-dark active:bg-btn-sec-clicked hover:bg-btn-sec-hover focus:bg-btn-sec-focused focus:outline-btn-clicked focus:outline-3 text-primary border-primary border-4",

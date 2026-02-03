@@ -17,6 +17,9 @@ export default {
     <!--// TODO - Fix spacing between headers and paragraphs. -->
     <section
         class="grid lg:grid-rows-1 lg:grid-cols-2 grid-rows-auto xll:px-56 lg:px-28 relative z-10 overflow-hidden bg-radial-[at_100%_0%] from-[#002133] from-15% to-bg-dark to-65% xl:min-h-[calc(100vh-7.8125rem)] md:py-20 py-10">
+        <!-- TODO - Upload CV. -->
+        <!-- TODO - Make button component for elements that are not link. -->
+        <!-- TODO - Add blue gradients across the page. -->
         <div
             class="flex xl:justify-center items-center lg:justify-start lg:mr-[8.333%] lg:ml-0 mx-[8.333vw] lg:min-h-full">
             <!-- bg-blue-300/30 -->

@@ -14,18 +14,17 @@ export default {
 
 <template>
     <!-- TODO - Fix the h2 header being too much close to the top. -->
+    <!-- TODO - Pick images for this sec. -->
     <section id="about-me" class="bg-bg-dark w-full flex 2xl:flex-row flex-col md:px-28 p-10 md:py-20 sm:py-10 py-30">
         <div class="flex-1"> <!-- bg-amber-300/30 -->
             <h2 class="font-inclusive-sans text-sec-title-font text-text 2xl:text-left md:text-center mb-4">
                 Who I am</h2>
-            <!--// TODO - Fix the padding for the following p element. -->
             <p
                 class="font-roboto-flex text-body-font text-text-muted 2xl:px-0 2xl:max-w-120 2xl:text-left md:text-center xl:px-60 md:px-0 pr-20">
                 I’m a web designer and programmer, specializing in building functional websites and developing their
                 backend systems. I also have experience with Arduinos and can create web-based games.<br><br>
             </p>
         </div>
-        <!--// TODO - Make the positioning of the divs (that are to become images) consistent. -->
         <div class="flex-1 flex justify-center items-center pt-30"> <!-- bg-emerald-300/30 -->
             <div class="relative lg:w-(--image-1-base-w) md:w-(--image-1-md-w) w-(--image-1-sm-w) aspect-506/571 bg-bg">
                 <div

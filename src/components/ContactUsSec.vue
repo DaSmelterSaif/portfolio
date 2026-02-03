@@ -12,8 +12,8 @@ export default {
 </script>
 
 <template>
-    <!--// TODO - Fix buttons growing on small screens. -->
     <!-- TODO - Fix button font being too big for small screens. -->
+    <!-- TODO - Choose an image or a background for this sec. -->
     <section id="contact-us"
         class="flex flex-col items-center justify-center xl:px-120 md:px-20 px-[10vw] bg-bg-light md:py-40 py-25">
         <h2 class="font-inclusive-sans text-sec-title-font text-text mb-4">Get in Touch</h2>

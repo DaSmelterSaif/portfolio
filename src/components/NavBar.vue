@@ -17,7 +17,8 @@ export default {
     <!-- TODO - Change hamburger icon. -->
     <!-- TODO - Add underline to link buttons (except for LOGO) w/ transition. -->
     <!-- TODO - Make the underline transition to fill on active. -->
-    <!--// TODO - Make a variable for the height of the navbar -->
+    <!-- TODO - Make the hamburger menu functional (on mobile). -->
+    <!-- TODO - Add a Logo. -->
     <nav class="flex flex-row w-full md:h-31.25 h-24 bg-bg-db-light text-text select-none">
         <a href="#"
             class="font-inclusive-sans md:w-58.75 w-44 flex justify-center items-center text-[clamp(2rem,2.5vw+1rem,2.75rem)] active:bg-primary">LOGO</a>

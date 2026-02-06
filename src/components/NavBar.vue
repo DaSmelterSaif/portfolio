@@ -5,6 +5,11 @@ export default {
             hamburgerOpen: false,
         }
     },
+    methods: {
+        toggleNavbar() {
+            this.hamburgerOpen = !this.hamburgerOpen;
+        }
+    }
 }
 </script>
 
@@ -14,15 +19,34 @@ export default {
      those specific values. I also prefer using text-align than flexbox.
      I have a preference for having margin for the entire section, and
      independant margin properties for the separate elements as needed. -->
-    <!-- TODO - Change hamburger icon. -->
+    <!--// TODO - Change hamburger icon. -->
     <!-- TODO - Add underline to link buttons (except for LOGO) w/ transition. -->
     <!-- TODO - Make the underline transition to fill on active. -->
-    <!-- TODO - Make the hamburger menu functional (on mobile). -->
+    <!--// TODO - Make the hamburger menu functional (on mobile). -->
     <!-- TODO - Add a Logo. -->
-    <nav class="flex flex-row w-full md:h-31.25 h-24 bg-bg-db-light text-text select-none">
-        <a href="#"
-            class="font-inclusive-sans md:w-58.75 w-44 flex justify-center items-center text-[clamp(2rem,2.5vw+1rem,2.75rem)] active:bg-primary">LOGO</a>
-        <div class="md:flex flex-row hidden lg:gap-0 gap-4 flex-1">
+    <nav class="relative flex flex-col">
+        <div class="flex flex-row w-full md:h-31.25 h-24 bg-bg-db-light text-text select-none">
+            <a href="/"
+                class="font-inclusive-sans md:w-58.75 w-44 flex justify-center items-center text-[clamp(2rem,2.5vw+1rem,2.75rem)] active:bg-primary">LOGO</a>
+            <div class="md:flex flex-row hidden lg:gap-0 gap-4 flex-1">
+                <a href="#about-me"
+                    class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(1rem,1.3vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active text-center">ABOUT
+                    ME</a>
+                <a href="#projects"
+                    class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(1rem,1.3vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active text-center">WORK</a>
+                <a href="#skills"
+                    class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(1rem,1.3vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active text-center">SKILLS</a>
+                <a href="#contact-us"
+                    class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(1rem,1.3vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active text-center">CONTACT</a>
+            </div>
+            <button
+                class="font-inclusive-sans text-[2.5rem] md:hidden inline-block ml-auto w-23.5 hover:bg-bg-db-dark active:bg-bg-db-active"
+                @click="toggleNavbar">
+                <font-awesome-icon icon="fa-solid fa-bars" />
+            </button>
+        </div>
+        <div v-if="hamburgerOpen" id="mobile-navbar"
+            class="absolute md:hidden z-10 top-full flex-col w-full lg:gap-0 gap-4 flex-1 bg-bg-db-light text-text select-none">
             <a href="#about-me"
                 class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(1rem,1.3vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active text-center">ABOUT
                 ME</a>
@@ -33,8 +57,6 @@ export default {
             <a href="#contact-us"
                 class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(1rem,1.3vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active text-center">CONTACT</a>
         </div>
-        <button
-            class="font-inclusive-sans text-[2.5rem] md:hidden inline-block ml-auto w-23.5 hover:bg-bg-db-dark active:bg-bg-db-active">☰</button>
     </nav>
 </template>
 

@@ -21,7 +21,8 @@ export default {
             </p>
         </div>
         <div class="flex lg:flex-row lg:items-start flex-col justify-center items-center sm:gap-30 gap-0 py-30">
-            <img src="/images/campus-management-sys.jpg" class="bg-bg aspect-16/10 min-w-41.25 flex-1">
+            <img src="/images/campus-management-sys.jpg"
+                class="bg-bg aspect-16/10 min-w-41.25 flex-1 shadow-br-highlight border border-text">
             <!-- <div class="bg-bg aspect-16/10 max-w-[95vw] w-full flex-1"></div> -->
             <div class="flex flex-col items-start flex-1 mt-10 w-full">
                 <h3 class="font-inclusive-sans text-sub-title-font text-text mb-2">
@@ -46,10 +47,12 @@ export default {
 
                 </p>
             </div>
-            <img src="/images/tic-tac-toe-discord-bot.jpg" class="bg-bg aspect-16/10 min-w-41.25 flex-1">
+            <img src="/images/tic-tac-toe-discord-bot.jpg"
+                class="bg-bg aspect-16/10 min-w-41.25 flex-1 shadow-br-highlight border-[1px] border-text">
         </div>
         <div class="flex lg:flex-row lg:items-start flex-col justify-center items-center sm:gap-30 gap-0 pt-30">
-            <div class="bg-bg aspect-16/10 max-w-[95vw] w-full flex-1"></div>
+            <div class="bg-bg aspect-16/10 max-w-[95vw] w-full flex-1 shadow-br-highlight border-[1px] border-text">
+            </div>
             <div class="flex flex-col items-start flex-1 mt-10 w-full">
                 <h3 class="font-inclusive-sans text-sub-title-font text-text mb-2">
                     This Website

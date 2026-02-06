@@ -2,10 +2,10 @@
 
 ## [src/components/NavBar.vue](src/components/NavBar.vue)
 
-- [ ] Change hamburger icon.
+- [x] Change hamburger icon.
 - [ ] Add underline to link buttons (except for LOGO) w/ transition.
 - [ ] Make the underline transition to fill on active.
-- [ ] Make the hamburger menu functional (on mobile).
+- [x] Make the hamburger menu functional (on mobile).
 - [ ] Add a Logo.
 
 ## [src/components/HeroSec.vue](src/components/HeroSec.vue)

@@ -57,6 +57,8 @@
   --font-roboto-mono: "Roboto Mono", monospace;
   --font-quicksand: "Quicksand", sans-serif;
   --font-courier: "Courier Prime", monospace;
+
+  --shadow-br-highlight: 0.25rem 0.25rem 1.5rem 0.375rem #004a61;
 }
 
 @layer components {

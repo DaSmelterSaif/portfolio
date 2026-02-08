@@ -46,16 +46,16 @@ export default {
             </button>
         </div>
         <div v-if="hamburgerOpen" id="mobile-navbar"
-            class="absolute md:hidden z-10 top-full flex-col w-full lg:gap-0 gap-4 flex-1 bg-bg-db-light text-text select-none">
+            class="absolute md:hidden z-10 top-full flex-col w-full lg:gap-0 gap-4 flex-1 bg-bg-db-light text-text border-t border-text-muted select-none">
             <a href="#about-me"
-                class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(1rem,1.3vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active text-center">ABOUT
+                class="font-inclusive-sans py-3 flex-1 flex justify-center items-center text-[clamp(1rem,1.3vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active text-center">ABOUT
                 ME</a>
             <a href="#projects"
-                class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(1rem,1.3vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active text-center">WORK</a>
+                class="font-inclusive-sans py-3 flex-1 flex justify-center items-center text-[clamp(1rem,1.3vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active text-center">WORK</a>
             <a href="#skills"
-                class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(1rem,1.3vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active text-center">SKILLS</a>
+                class="font-inclusive-sans py-3 flex-1 flex justify-center items-center text-[clamp(1rem,1.3vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active text-center">SKILLS</a>
             <a href="#contact-us"
-                class="font-inclusive-sans flex-1 flex justify-center items-center text-[clamp(1rem,1.3vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active text-center">CONTACT</a>
+                class="font-inclusive-sans py-3 flex-1 flex justify-center items-center text-[clamp(1rem,1.3vw+1rem,2.75rem)] hover:bg-bg-db-dark active:bg-bg-db-active text-center">CONTACT</a>
         </div>
     </nav>
 </template>

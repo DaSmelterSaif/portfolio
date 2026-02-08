@@ -13,6 +13,8 @@
 - [ ] Upload CV.
 - [ ] Make button component for elements that are not link.
 - [ ] Add blue gradients across the page.
+- [ ] Add download symbol.
+- [ ] Delete ButtonForm or keep it.
 
 ## [src/components/AboutMeSec.vue](src/components/AboutMeSec.vue)
 

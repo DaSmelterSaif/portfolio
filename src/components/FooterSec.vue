@@ -11,7 +11,7 @@ export default {
     <!-- TODO - Make the links functional or remove them. -->
     <footer class="flex flex-row md:p-15 p-9 bg-bg-db-light">
         <div class="flex-1">
-            <p class="font-inclusive-sans text-body-font text-text mb-10">LOGO</p><br>
+            <p class="font-inclusive-sans text-body-font text-text mb-10 select-none">SAIF</p><br>
             <div>
                 <ul class="font-inclusive-sans text-text text-body-font">
                     <li class="block md:pr-10 md:float-left py-4">Link #1</li>

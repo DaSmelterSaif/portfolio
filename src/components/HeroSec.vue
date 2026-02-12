@@ -16,10 +16,10 @@ export default {
     <!--// TODO - Look into square screen making the section large issue. -->
     <!--// TODO - Fix spacing between headers and paragraphs. -->
     <section class="relative isolate">
-        <!-- TODO - Upload CV. -->
-        <!-- TODO - Make button component for elements that are not link. -->
+        <!--// TODO - Upload CV. -->
+        <!--// TODO - Make button component for elements that are not link. -->
         <!-- TODO - Add blue gradients across the page. -->
-        <!-- TODO - Add download symbol. -->
+        <!--// TODO - Add download symbol. -->
         <!-- TODO - Delete ButtonForm or keep it. -->
         <div
             class="grid lg:grid-rows-1 lg:grid-cols-2 grid-rows-auto xll:px-56 lg:px-28 relative z-10 overflow-hidden bg-radial-[at_100%_0%] from-[#002133] from-15% to-bg-dark to-65% xl:min-h-[calc(100vh-7.8125rem)] md:py-20 py-10">
@@ -36,7 +36,10 @@ export default {
                         Here to help you build your own responsive, user-friendly website.</p>
                     <div class="flex mt-3 gap-4">
                         <ButtonLink href="#contact-us" variant="primary">GET IN TOUCH</ButtonLink>
-                        <ButtonLink href="/CV_SaifAldinSunjaq.pdf" download="" variant="secondary">MY CV</ButtonLink>
+                        <ButtonLink href="/CV_SaifAldinSunjaq.pdf" download="" variant="secondary">
+                            <font-awesome-icon icon="fa-solid fa-download" />
+                            MY CV
+                        </ButtonLink>
                     </div>
                 </div>
             </div>

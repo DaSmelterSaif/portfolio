@@ -12,7 +12,8 @@ export default {
         <div>
             <h2 class="font-inclusive-sans text-sec-title-font text-text mb-20">Core Skills</h2>
             <div class="grid lg:grid-rows-1 lg:grid-cols-3 grid-rows-3 gap-20 lg:px-0 px-5">
-                <div class="flex flex-col items-center">
+                <div
+                    class="flex flex-col items-center bg-radial-[at_50%_50%] from-[#002133] from-15% to-bg-dark to-75%">
                     <div class="w-24 h-24 bg-bg rounded-full mb-8 flex justify-center items-center">
                         <font-awesome-icon icon="fa-solid fa-code" class="text-text-muted text-6xl" />
                     </div>
@@ -26,7 +27,8 @@ export default {
                         Flask/Spring Boot, and Docker.
                     </p>
                 </div>
-                <div class="flex flex-col items-center">
+                <div
+                    class="flex flex-col items-center bg-radial-[at_50%_50%] from-[#002133] from-15% to-bg-dark to-75%">
                     <div class="w-24 h-24 bg-bg rounded-full mb-8 flex justify-center items-center">
                         <font-awesome-icon icon="fa-solid fa-computer" class="text-text-muted text-6xl" />
                     </div>
@@ -39,7 +41,8 @@ export default {
                         train models to detect patterns.
                     </p>
                 </div>
-                <div class="flex flex-col items-center">
+                <div
+                    class="flex flex-col items-center bg-radial-[at_50%_50%] from-[#002133] from-15% to-bg-dark to-75%">
                     <div class="w-24 h-24 bg-bg rounded-full mb-8 flex justify-center items-center">
                         <font-awesome-icon icon="fa-solid fa-microchip" class="text-text-muted text-6xl" />
                     </div>

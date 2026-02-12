@@ -6,6 +6,7 @@
 @import "tailwindcss";
 
 @theme {
+  /* Background colors */
   --color-bg-dark: hsl(222, 100%, 2%);
   --color-bg: hsl(208, 100%, 7%);
   --color-bg-db-light: hsl(207, 23%, 23%);
@@ -13,25 +14,30 @@
   --color-bg-db-active: hsl(207, 23%, 13%);
   --color-bg-light: hsl(201, 100%, 11%);
 
+  /* Text colors */
   --color-text: hsl(0, 0%, 95%);
   --color-text-muted: hsl(0, 0%, 62%);
 
+  /* Border colors */
   --color-highlight: hsl(194, 100%, 19%);
   --color-border: hsl(197, 100%, 11%);
   --color-border-muted: hsl(201, 100%, 6%);
 
   --color-primary: hsl(108, 81%, 57%);
-  --color-secondary: hsl(279, 82%, 77%);
+  --color-secondary: hsl(279, 82%, 77%); /* May never be used. */
 
+  /* Primary button */
   --color-btn-hover: oklch(0.7503 0.2399 140.87);
   --color-btn-disabled: oklch(0.6567 0 0);
   --color-btn-focused: oklch(0.6629 0.211 140.79);
   --color-btn-clicked: oklch(0.5023 0.1572 140.7);
 
+  /* Secondary button */
   --color-btn-sec-hover: oklch(0.2644 0.0842 139.5);
   --color-btn-sec-focused: oklch(0.348 0.113 140.42);
   --color-btn-sec-clicked: oklch(0.4604 0.1514 140.98);
 
+  /* Tertiary button */
   --color-btn-tert-hover: oklch(0.8276 0.2427 140.28 / 13%);
   --color-btn-tert-focused: oklch(0.8276 0.2427 140.28 / 22%);
   --color-btn-tert-clicked: oklch(0.8276 0.2427 140.28 / 40%);

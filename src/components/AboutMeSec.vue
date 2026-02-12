@@ -13,10 +13,11 @@ export default {
 <!-- I removed @layer base... and it's working now. WHAT THNKAJFHKAJ -->
 
 <template>
-    <!-- TODO - Fix the h2 header being too much close to the top. -->
+    <!--// TODO - Fix the h2 header being too much close to the top. -->
     <!-- TODO - Pick images for this sec. -->
-    <section id="about-me" class="bg-bg-dark w-full flex 2xl:flex-row flex-col md:px-28 p-10 md:py-20 sm:py-10 py-30">
-        <div class="flex-1"> <!-- bg-amber-300/30 -->
+    <section id="about-me"
+        class="bg-bg-dark w-full flex 2xl:flex-row flex-col md:px-28 p-10 md:py-20 sm:py-10 py-30 bg-radial-[at_0%_50%] from-[#002133] from-0% to-bg-dark to-50%">
+        <div class="flex-1 flex flex-col justify-center"> <!-- bg-amber-300/30 -->
             <h2 class="font-inclusive-sans text-sec-title-font text-text 2xl:text-left md:text-center mb-4">
                 Who I am</h2>
             <p

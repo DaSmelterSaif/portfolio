@@ -19,7 +19,7 @@ export default {
                 <p class="text-text font-roboto-flex text-body-font">AaBb</p>
             </div>
         </div>
-        <div class="flex-1">
+        <div class="flex-1 bg-radial-[at_50%_50%] from-[#002133] from-20% to-transparent to-75%">
             <h2 class="font-inclusive-sans text-sec-title-font text-text mb-4">Design of This Website</h2>
             <p class="font-roboto-flex text-body-font text-text-muted xl:p-0 pr-20">
                 A lot of research, inspiration-gathering, and effort went into making this website. It was made with

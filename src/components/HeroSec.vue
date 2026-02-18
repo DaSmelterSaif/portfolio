@@ -18,7 +18,7 @@ export default {
     <section class="relative isolate">
         <!--// TODO - Upload CV. -->
         <!--// TODO - Make button component for elements that are not link. -->
-        <!-- TODO - Add blue gradients across the page. -->
+        <!--// TODO - Add blue gradients across the page. -->
         <!--// TODO - Add download symbol. -->
         <!-- TODO - Delete ButtonForm or keep it. -->
         <div

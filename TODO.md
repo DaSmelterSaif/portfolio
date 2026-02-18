@@ -1,5 +1,9 @@
 # TODO
 
+## [src/App.vue](src/App.vue)
+
+- [ ] Fix the size and the style of the error box.
+
 ## [src/components/NavBar.vue](src/components/NavBar.vue)
 
 - [x] Change hamburger icon.
@@ -12,7 +16,7 @@
 
 - [x] Upload CV.
 - [x] Make button component for elements that are not link.
-- [ ] Add blue gradients across the page.
+- [x] Add blue gradients across the page.
 - [x] Add download symbol.
 - [ ] Delete ButtonForm or keep it.
 
@@ -26,7 +30,7 @@
 - [ ] Change the structure ordering of images and titles+paragraphs, and make CSS control the order.
 - [x] Make the images look distinct from the background.
 - [ ] Find a third image, or replace the section with something different.
-- [ ] Add gradients here using the utility classes here.
+- [x] Add gradients here using the utility classes here.
 
 ## [src/components/SkillsSec.vue](src/components/SkillsSec.vue)
 

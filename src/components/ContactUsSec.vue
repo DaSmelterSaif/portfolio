@@ -8,9 +8,15 @@ export default {
     components: {
         ButtonLink
     },
+    emits: ['warningMessage'],
     methods: {
         copyText(text: string): void {
-            navigator.clipboard.writeText(text);
+            try {
+                navigator.clipboard.writeText(text);
+            }
+            catch {
+                this.$emit('warningMessage', 'Failed to copy to clipboard.');
+            }
         }
     }
 }

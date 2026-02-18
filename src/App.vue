@@ -10,7 +10,10 @@ import FooterSec from './components/FooterSec.vue';
 
 export default {
   data() {
-    return {};
+    return {
+      warning: false,
+      warningMessage: "",
+    };
   },
   components: {
     NavBar,
@@ -21,18 +24,34 @@ export default {
     SkillsSec,
     ContactUsSec,
     FooterSec
+  },
+  methods: {
+    handleWarning(msg: string) {
+      this.warning = true;
+      this.warningMessage = msg;
+      setTimeout(this.closeWarning, 10000);
+    },
+    closeWarning() {
+      this.warning = false;
+      this.warningMessage = "";
+    }
   }
 }
 </script>
 
 <template>
+  <!-- TODO - Fix the size and the style of the error box. -->
+  <div v-if="warning" class="fixed top-2 left-1/2 -translate-x-1/2 rounded-2xl w-100 h-50 p-10 bg-danger z-99">
+    <p class="font-bold font-roboto-flex inline-block">Warning</p>
+    <p class="font-robot-flex mt-1">{{ warningMessage }}</p>
+  </div>
   <NavBar />
   <HeroSec />
   <AboutMeSec />
   <ProjectsSec />
   <AboutWebsiteSec />
   <SkillsSec />
-  <ContactUsSec />
+  <ContactUsSec @warning-message="handleWarning" />
   <FooterSec />
 </template>
 

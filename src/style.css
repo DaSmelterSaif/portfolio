@@ -47,6 +47,8 @@
   --color-success: hsl(156, 68%, 43%);
   --color-info: hsl(217, 94%, 69%);
 
+  --color-gradient-glow: oklch(0.2548 0.0513 237.09);
+
   --breakpoint-xll: 120rem;
 
   --text-3_5xl: 2rem;

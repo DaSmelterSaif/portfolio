@@ -22,7 +22,7 @@ export default {
         <!--// TODO - Add download symbol. -->
         <!-- TODO - Delete ButtonForm or keep it. -->
         <div
-            class="grid lg:grid-rows-1 lg:grid-cols-2 grid-rows-auto xll:px-56 lg:px-28 relative z-10 overflow-hidden bg-radial-[at_100%_0%] from-[#002133] from-15% to-bg-dark to-65% xl:min-h-[calc(100vh-7.8125rem)] md:py-20 py-10">
+            class="grid lg:grid-rows-1 lg:grid-cols-2 grid-rows-auto xll:px-56 lg:px-28 relative z-10 overflow-hidden bg-radial-[at_100%_0%] from-gradient-glow from-15% to-bg-dark to-65% xl:min-h-[calc(100vh-7.8125rem)] md:py-20 py-10">
             <div
                 class="flex xl:justify-center items-center lg:justify-start lg:mr-[8.333%] lg:ml-0 mx-[8.333vw] lg:min-h-full">
                 <!-- bg-blue-300/30 -->
@@ -33,7 +33,7 @@ export default {
                             Building The Web</h1>
                     </div>
                     <p class="font-roboto-flex text-body-font text-text-muted mt-5">
-                        Here to help you build your own responsive, user-friendly website.</p>
+                        Here to help you build your own responsive, user-friendly website, or web app.</p>
                     <div class="flex mt-3 gap-4">
                         <ButtonLink href="#contact-us" variant="primary">GET IN TOUCH</ButtonLink>
                         <ButtonLink href="/CV_SaifAldinSunjaq.pdf" download="" variant="secondary">
@@ -51,13 +51,14 @@ export default {
                         <p class="text-body-font font-roboto-flex text-text">Saif Aldin Sunjaq</p>
                     </div>
                     <ul class="list-none text-body-font font-roboto-flex text-text-muted">
-                        <li>Web Developer and Designer</li>
-                        <li>Frontend <span class="font-courier font-bold">&&</span> Backend</li>
+                        <li>Full-Stack Web Developer</li>
+                        <li>Software Engineer</li>
+                        <!-- <li>Frontend <span class="font-courier font-bold">&&</span> Backend</li> -->
                     </ul>
                 </div>
             </div>
             <p
-                class="absolute -bottom-57 -left-37 -z-10 select-none font-quicksand font-bold text-[32rem] text-[#002133]">
+                class="absolute -bottom-57 -left-37 -z-10 select-none font-quicksand font-bold text-[32rem] text-gradient-glow">
                 &#60;&#47;&#62;
             </p>
         </div>

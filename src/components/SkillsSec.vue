@@ -13,45 +13,41 @@ export default {
             <h2 class="font-inclusive-sans text-sec-title-font text-text mb-20">Core Skills</h2>
             <div class="grid lg:grid-rows-1 lg:grid-cols-3 grid-rows-3 gap-20 lg:px-0 px-5">
                 <div
-                    class="flex flex-col items-center bg-radial-[at_50%_50%] from-[#002133] from-15% to-bg-dark to-75%">
+                    class="flex flex-col items-center bg-radial-[at_50%_50%] from-gradient-glow from-15% to-bg-dark to-75%">
                     <div class="w-24 h-24 bg-bg rounded-full mb-8 flex justify-center items-center">
                         <font-awesome-icon icon="fa-solid fa-code" class="text-text-muted text-6xl" />
                     </div>
-                    <h3 class="font-inclusive-sans text-sub-title-font text-text text-center mb-4 xl:h-21">Web
-                        Development
-                        &
-                        Programming
+                    <h3 class="font-inclusive-sans text-sub-title-font text-text text-center mb-4 xl:h-21">
+                        Software Development
                     </h3>
                     <p class="font-roboto-flex text-body-font text-text-muted text-center">
-                        Website development, with or without backend systems. Experienced in Vue.js, Tailwind CSS,
-                        Flask/Spring Boot, and Docker.
+                        Experience in building clean, maintainable, and readable code, whether functional, or
+                        object-oriented. Proficient in Python, JavaScript, and Java.
                     </p>
                 </div>
                 <div
-                    class="flex flex-col items-center bg-radial-[at_50%_50%] from-[#002133] from-15% to-bg-dark to-75%">
+                    class="flex flex-col items-center bg-radial-[at_50%_50%] from-gradient-glow from-15% to-bg-dark to-75%">
                     <div class="w-24 h-24 bg-bg rounded-full mb-8 flex justify-center items-center">
-                        <font-awesome-icon icon="fa-solid fa-computer" class="text-text-muted text-6xl" />
+                        <font-awesome-icon icon="fa-solid fa-globe" class="text-text-muted text-6xl" />
                     </div>
                     <h3 class="font-inclusive-sans text-sub-title-font text-text text-center mb-4 xl:h-21">
-                        Machine Learning
-                        & AI
+                        Web Development
                     </h3>
                     <p class="font-roboto-flex text-body-font text-text-muted text-center">
-                        A background in machine learning models and the different types of classifiers. I can
-                        train models to detect patterns.
+                        Develop responsive, user-friendly websites, and web apps. Focus on usable UI, and
+                        component-based architecture. Advanced in Vue.js, and Tailwind CSS.
                     </p>
                 </div>
                 <div
-                    class="flex flex-col items-center bg-radial-[at_50%_50%] from-[#002133] from-15% to-bg-dark to-75%">
+                    class="flex flex-col items-center bg-radial-[at_50%_50%] from-gradient-glow from-15% to-bg-dark to-75%">
                     <div class="w-24 h-24 bg-bg rounded-full mb-8 flex justify-center items-center">
                         <font-awesome-icon icon="fa-solid fa-microchip" class="text-text-muted text-6xl" />
                     </div>
                     <h3 class="font-inclusive-sans text-sub-title-font text-text text-center mb-4 xl:h-21">
-                        Embedded
-                        Systems</h3>
+                        Backend systems
+                    </h3>
                     <p class="font-roboto-flex text-body-font text-text-muted text-center">
-                        Utilizing the power of Arduinos to test and prototype designs before deployment. I can do
-                        electrical work and wire devices together.
+                        Set up web servers and backend systems to handle end users. Experience in Spring Boot.
                     </p>
                 </div>
             </div>

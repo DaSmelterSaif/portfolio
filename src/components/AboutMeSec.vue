@@ -18,18 +18,21 @@ export default {
     <!-- Beware, negative margin at first div. -->
     <section id="about-me" class="bg-bg-dark w-full flex 2xl:flex-row flex-col md:px-28 p-10 md:py-20 sm:py-10 py-30">
         <div
-            class="flex-1 flex flex-col justify-center 2xl:bg-radial-[at_0%_50%] md:bg-radial-[at_50%_50%] bg-radial-[at_0%_50%] from-[#002133] from-15% to-transparent to-65% md:-ml-28 -ml-10 md:pl-28 pl-10">
+            class="flex-1 flex flex-col justify-center 2xl:bg-radial-[at_0%_50%] md:bg-radial-[at_50%_50%] bg-radial-[at_0%_50%] from-gradient-glow from-15% to-transparent to-65% md:-ml-28 -ml-10 md:pl-28 pl-10">
             <!-- bg-amber-300/30 -->
             <h2 class="font-inclusive-sans text-sec-title-font text-text 2xl:text-left md:text-center mb-4">
                 Who I am</h2>
             <p
                 class="font-roboto-flex text-body-font text-text-muted 2xl:px-0 2xl:max-w-120 2xl:text-left md:text-center xl:px-60 md:px-0 pr-20">
-                I’m a web designer and programmer, specializing in building functional websites and developing their
-                backend systems. I also have experience with Arduinos and can create web-based games.<br><br>
+                I’m a web developer <span class="font-courier font-bold">&&</span> programmer, specialized in building
+                functional websites and developing
+                backend systems. I have experience with Arduinos and web-based games. I'm interested in programming, app
+                development, embedded systems, and electricity.<br><br>
             </p>
         </div>
         <div class="flex-1 flex justify-center items-center pt-30"> <!-- bg-emerald-300/30 -->
-            <div class="relative lg:w-(--image-1-base-w) md:w-(--image-1-md-w) w-(--image-1-sm-w) aspect-506/571 bg-bg">
+            <div class="relative lg:w-(--image-1-base-w) md:w-(--image-1-md-w) w-(--image-1-sm-w) aspect-506/571">
+                <img src="/images/PortfolioLaptopImage.jpg" alt="Laptop on a table" class="w-full rounded-sm">
                 <div
                     class="absolute top-24/32 left-3/32 -translate-1/2 lg:w-(--image-2-base-w) md:w-(--image-2-md-w) w-(--image-2-sm-w) aspect-11/10 bg-bg-light">
                 </div>

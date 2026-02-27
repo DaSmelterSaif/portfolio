@@ -27,7 +27,7 @@ export default {
     <!-- TODO - Choose an image or a background for this sec. -->
     <!-- TODO - Fix buttons breaking on tablet view (horizontal). -->
     <section id="contact-us"
-        class="flex flex-col items-center justify-center xl:px-120 md:px-20 px-[10vw] bg-bg-light md:py-40 py-25">
+        class="flex flex-col items-center justify-center xl:px-120 md:px-20 px-[10vw] bg-[url('/images/ParkImage.jpg')] bg-cover bg-center md:py-40 py-25">
         <h2 class="font-inclusive-sans text-sec-title-font text-text mb-4">Get in Touch</h2>
         <p class="text-center font-roboto-flex text-body-font text-text-muted mb-4">
             Got a project in mind? Please drop an email so we can discuss further.

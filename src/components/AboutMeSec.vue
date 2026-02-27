@@ -38,6 +38,9 @@ export default {
                 </div>
                 <div
                     class="absolute top-7/32 left-29/32 -translate-1/2 lg:w-(--image-3-base-w) md:w-(--image-3-md-w) w-(--image-3-sm-w) aspect-229/146 bg-bg-light">
+                    <img src="/images/PrototypingPaper.jpg"
+                        alt="Picture of a yellow notebook that has a website prototype, drawn in pencil."
+                        class="w-full rounded-sm">
                 </div>
             </div>
         </div>

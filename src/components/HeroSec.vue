@@ -36,7 +36,7 @@ export default {
                         Here to help you build your own responsive, user-friendly website, or web app.</p>
                     <div class="flex mt-3 gap-4">
                         <ButtonLink href="#contact-us" variant="primary">GET IN TOUCH</ButtonLink>
-                        <ButtonLink href="/portfolio/CV_SaifAldinSunjaq.pdf" download="" variant="secondary">
+                        <ButtonLink href="CV_SaifAldinSunjaq.pdf" download="" variant="secondary">
                             <font-awesome-icon icon="fa-solid fa-download" />
                             MY CV
                         </ButtonLink>

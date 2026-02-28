@@ -41,7 +41,7 @@ export default {
                 <div
                     class="flex flex-col items-center bg-radial-[at_50%_50%] from-gradient-glow from-15% to-bg-dark to-75%">
                     <div class="w-24 h-24 bg-bg rounded-full mb-8 flex justify-center items-center">
-                        <font-awesome-icon icon="fa-solid fa-microchip" class="text-text-muted text-6xl" />
+                        <font-awesome-icon icon="fa-solid fa-server" class="text-text-muted text-6xl" />
                     </div>
                     <h3 class="font-inclusive-sans text-sub-title-font text-text text-center mb-4 xl:h-21">
                         Backend systems

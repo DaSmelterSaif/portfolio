@@ -29,7 +29,7 @@
 
 - [ ] Change the structure ordering of images and titles+paragraphs, and make CSS control the order.
 - [x] Make the images look distinct from the background.
-- [ ] Find a third image, or replace the section with something different.
+- [x] Find a third image, or replace the section with something different.
 - [x] Add gradients here using the utility classes here.
 
 ## [src/components/SkillsSec.vue](src/components/SkillsSec.vue)
@@ -39,7 +39,7 @@
 ## [src/components/ContactUsSec.vue](src/components/ContactUsSec.vue)
 
 - [x] Fix button font being too big for small screens.
-- [ ] Choose an image or a background for this sec.
+- [x] Choose an image or a background for this sec.
 - [ ] Fix buttons breaking on tablet view (horizontal).
 
 ## [src/components/FooterSec.vue](src/components/FooterSec.vue)

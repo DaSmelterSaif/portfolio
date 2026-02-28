@@ -24,7 +24,7 @@ export default {
 
 <template>
     <!--// TODO - Fix button font being too big for small screens. -->
-    <!-- TODO - Choose an image or a background for this sec. -->
+    <!--// TODO - Choose an image or a background for this sec. -->
     <!-- TODO - Fix buttons breaking on tablet view (horizontal). -->
     <section id="contact-us"
         class="flex flex-col items-center justify-center xl:px-120 md:px-20 px-[10vw] bg-[url('/images/ParkImage.jpg')] bg-cover bg-center md:py-40 py-25">

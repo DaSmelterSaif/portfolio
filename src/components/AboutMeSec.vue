@@ -32,14 +32,16 @@ export default {
         </div>
         <div class="flex-1 flex justify-center items-center pt-30"> <!-- bg-emerald-300/30 -->
             <div class="relative lg:w-(--image-1-base-w) md:w-(--image-1-md-w) w-(--image-1-sm-w) aspect-506/571">
-                <img src="/images/PortfolioLaptopImage.jpg" alt="Laptop on a table" class="w-full rounded-sm">
+                <img src="/images/PortfolioLaptopImage.jpg" alt="Laptop on a table." class="w-full rounded-sm">
                 <div
                     class="absolute top-24/32 left-3/32 -translate-1/2 lg:w-(--image-2-base-w) md:w-(--image-2-md-w) w-(--image-2-sm-w) aspect-11/10 bg-bg-light">
+                    <img src="/images/TabletPhoneDemo.jpg"
+                        alt="A phone and a tablet on a table displaying the same website." class="w-full rounded-sm">
                 </div>
                 <div
                     class="absolute top-7/32 left-29/32 -translate-1/2 lg:w-(--image-3-base-w) md:w-(--image-3-md-w) w-(--image-3-sm-w) aspect-229/146 bg-bg-light">
                     <img src="/images/PrototypingPaper.jpg"
-                        alt="Picture of a yellow notebook that has a website prototype, drawn in pencil."
+                        alt="A yellow notebook that has a website prototype, drawn in pencil."
                         class="w-full rounded-sm">
                 </div>
             </div>

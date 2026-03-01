@@ -35,8 +35,8 @@ export default {
                 </h3>
                 <p class="font-roboto-flex text-body-font text-text-muted">
                     An AI-based campus management system that leads you to the services you are looking for and
-                    auto-fills the form. <a href="https://github.com/DaSmelterSaif/AhmedHabibBot" target="_blank"
-                        class="text-primary underline underline-offset-6">GitHub
+                    auto-fills the form. <a href="https://github.com/DaSmelterSaif/campus-management-sys-frontend"
+                        target="_blank" class="text-primary underline underline-offset-6">GitHub
                         Repository</a> <br><br>
                     Project timespan: October - December, 2025.
 

@@ -1,6 +1,6 @@
 import { createApp } from "vue";
-// import PrimeVue from "primevue/config";
-// import Aura from "@primeuix/themes/aura";
+import PrimeVue from "primevue/config";
+import Aura from "@primeuix/themes/aura";
 import "./style.css";
 import App from "./App.vue";
 
@@ -15,10 +15,10 @@ library.add(fas, far);
 
 const app = createApp(App);
 
-// app.use(PrimeVue, {
-//   theme: {
-//     preset: Aura,
-//   },
-// });
+app.use(PrimeVue, {
+  theme: {
+    preset: Aura,
+  },
+});
 app.component("font-awesome-icon", FontAwesomeIcon);
 app.mount("#app");

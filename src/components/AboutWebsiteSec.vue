@@ -23,9 +23,9 @@ export default {
             <h2 class="font-inclusive-sans text-sec-title-font text-text mb-4">Design of This Website</h2>
             <p class="font-roboto-flex text-body-font text-text-muted xl:p-0 pr-20">
                 A lot of research, inspiration-gathering, and effort went into making this website. It was made with
-                simplicity, accessibility, and usability in mind.
-
-                More details upon request.
+                simplicity, accessibility, and usability in mind. <a
+                    href="https://www.linkedin.com/posts/saif-aldin-s-86a166296_after-a-considerable-amount-of-hard-work-activity-7433615264384057346-dOkM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEeR_1IBjGvePznNe3yLbHuFXPaNfrSZadY"
+                    target="_blank" class="text-primary underline underline-offset-6">Check out this LinkedIn post!</a>
 
             </p>
         </div>

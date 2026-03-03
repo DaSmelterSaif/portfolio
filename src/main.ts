@@ -7,11 +7,26 @@ import App from "./App.vue";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-import { fas } from "@fortawesome/free-solid-svg-icons";
-import { far } from "@fortawesome/free-regular-svg-icons";
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import { faClone } from "@fortawesome/free-regular-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { faServer } from "@fortawesome/free-solid-svg-icons";
 // import { fab } from "@fortawesome/free-brands-svg-icons";
 
-library.add(fas, far);
+library.add(
+  faArrowUpRightFromSquare,
+  faClone,
+  faEnvelope,
+  faDownload,
+  faBars,
+  faCode,
+  faGlobe,
+  faServer,
+);
 
 const app = createApp(App);
 

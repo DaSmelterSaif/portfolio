@@ -30,7 +30,8 @@ export default {
                 </a>
             </div>
         </div>
-        <p class="font-inclusive-sans text-lg text-text-muted text-center">Saif Aldin Sunjaq 2026</p>
+        <p class="font-inclusive-sans text-lg text-text-muted text-center">Saif Aldin Sunjaq 2026. Do not copy and use
+            for non-personal matters.</p>
     </footer>
 
     <!-- CODE FOR EXTRA LINKS. USE WHEN NEEDED. -->

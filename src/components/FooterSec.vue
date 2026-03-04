@@ -10,7 +10,7 @@ export default {
     <!--// TODO - Fix social links -->
     <!-- TODO - Make the links functional or remove them. -->
     <footer class="flex flex-col md:p-15 p-9 bg-bg-db-light">
-        <p class="font-inclusive-sans text-body-font text-text mb-10 select-none">SAIF</p><br>
+        <p class="font-gasoek-one text-body-font text-text mb-10 select-none">SAIF</p><br>
         <div class="flex flex-row justify-start gap-5 mb-5">
             <div class="max-w-14 aspect-square bg-bg-light rounded-full">
                 <a href="https://github.com/DaSmelterSaif" target="_blank"

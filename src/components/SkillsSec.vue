@@ -8,7 +8,7 @@ export default {
 
 <template>
     <!--// TODO - Make the spacing between headers and the paragraphs even. -->
-    <section id="skills" class="bg-bg-dark lg:px-30 px-10 md:py-20 sm:py-10 py-30">
+    <section id="skills" class="bg-bg-dark lg:px-30 px-10 md:py-20 sm:py-10 py-30" aria-label="Core Skills">
         <div>
             <h2 class="font-inclusive-sans text-sec-title-font text-text mb-20">Core Skills</h2>
             <div class="grid lg:grid-rows-1 lg:grid-cols-3 grid-rows-3 gap-20 lg:px-0 px-5">

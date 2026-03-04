@@ -16,7 +16,8 @@ export default {
     <!--// TODO - Fix the h2 header being too much close to the top. -->
     <!-- TODO - Pick images for this sec. -->
     <!-- Beware, negative margin at first div. -->
-    <section id="about-me" class="bg-bg-dark w-full flex 2xl:flex-row flex-col md:px-28 p-10 md:py-20 sm:py-10 py-30">
+    <section id="about-me" class="bg-bg-dark w-full flex 2xl:flex-row flex-col md:px-28 p-10 md:py-20 sm:py-10 py-30"
+        aria-label="About Me">
         <div
             class="flex-1 flex flex-col justify-center 2xl:bg-radial-[at_0%_50%] md:bg-radial-[at_50%_50%] bg-radial-[at_0%_50%] from-gradient-glow from-15% to-transparent to-65% md:-ml-28 -ml-10 md:pl-28 pl-10">
             <!-- bg-amber-300/30 -->
@@ -32,17 +33,19 @@ export default {
         </div>
         <div class="flex-1 flex justify-center items-center pt-30"> <!-- bg-emerald-300/30 -->
             <div class="relative lg:w-(--image-1-base-w) md:w-(--image-1-md-w) w-(--image-1-sm-w) aspect-506/571">
-                <img src="/images/PortfolioLaptopImage.jpg" alt="Laptop on a table." class="w-full rounded-sm">
+                <img src="/images/PortfolioLaptopImage.jpg" alt="Laptop on a table." class="w-full rounded-sm"
+                    loading="lazy">
                 <div
                     class="absolute top-24/32 left-3/32 -translate-1/2 lg:w-(--image-2-base-w) md:w-(--image-2-md-w) w-(--image-2-sm-w) aspect-11/10 bg-bg-light">
                     <img src="/images/TabletPhoneDemo.jpg"
-                        alt="A phone and a tablet on a table displaying the same website." class="w-full rounded-sm">
+                        alt="A phone and a tablet on a table displaying the same website." class="w-full rounded-sm"
+                        loading="lazy">
                 </div>
                 <div
                     class="absolute top-7/32 left-29/32 -translate-1/2 lg:w-(--image-3-base-w) md:w-(--image-3-md-w) w-(--image-3-sm-w) aspect-229/146 bg-bg-light">
                     <img src="/images/PrototypingPaper.jpg"
-                        alt="A yellow notebook that has a website prototype, drawn in pencil."
-                        class="w-full rounded-sm">
+                        alt="A yellow notebook that has a website prototype, drawn in pencil." class="w-full rounded-sm"
+                        loading="lazy">
                 </div>
             </div>
         </div>

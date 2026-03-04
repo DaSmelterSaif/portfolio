@@ -8,7 +8,8 @@ export default {
 
 <template>
     <section
-        class="flex gap-15 lg:flex-row flex-col-reverse justify-center items-center xl:px-20 lg:gap-30 px-10 bg-bg-dark md:py-20 sm:py-10 py-30">
+        class="flex gap-15 lg:flex-row flex-col-reverse justify-center items-center xl:px-20 lg:gap-30 px-10 bg-bg-dark md:py-20 sm:py-10 py-30"
+        aria-label="Design of This Website">
         <div class="max-w-[95vw] w-full aspect-453/370 flex-1 flex justify-center items-center">
             <div
                 class="bg-highlight sm:w-92.5 w-75 aspect-370/453 pl-7.75 pt-16.5 rounded-bl-[9.5rem] rounded-br-[3.375rem] rounded-tl-[4.25rem] rounded-tr-[5rem]">

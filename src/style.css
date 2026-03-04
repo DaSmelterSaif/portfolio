@@ -1,8 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,96,468,79,-203,738,514,712&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&family=Quicksand:wght@700&family=Roboto+Flex:opsz,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,96,468,79,-203,738,514,712&family=Roboto+Mono&family=Gasoek+One&family=Inclusive+Sans&display=swap");
 @import "tailwindcss";
 
 @theme {
@@ -61,6 +57,7 @@
     var(--text-3xl)
   );
 
+  --font-gasoek-one: "Gasoek One", sans-serif;
   --font-inclusive-sans: "Inclusive Sans", sans-serif;
   --font-roboto-mono: "Roboto Mono", monospace;
   --font-quicksand: "Quicksand", sans-serif;

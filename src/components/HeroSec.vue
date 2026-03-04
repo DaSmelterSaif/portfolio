@@ -15,7 +15,7 @@ export default {
     <!--// TODO - Look into max-width for image. -->
     <!--// TODO - Look into square screen making the section large issue. -->
     <!--// TODO - Fix spacing between headers and paragraphs. -->
-    <section class="relative isolate">
+    <main class="relative isolate">
         <!--// TODO - Upload CV. -->
         <!--// TODO - Make button component for elements that are not link. -->
         <!--// TODO - Add blue gradients across the page. -->
@@ -46,7 +46,8 @@ export default {
             <div class="flex justify-center items-center"> <!-- bg-amber-300/30 -->
                 <div
                     class="xll:w-[23vw] 2xl:mt-[3vh] 2xl:ml-[8vw] 2xl:h-auto 2xl:w-97.75 2xl:aspect-391/557 xl:h-auto xl:w-90 xl:aspect-391/557 lg:mt-[9vh] lg:w-90 lg:ml-[6vw] lg:mr-0 w-full m-0 max-w-195.5 mx-[15vw]">
-                    <img class="w-full aspect-square rounded-full" src="/ProfilePic.jpg">
+                    <img class="w-full aspect-square rounded-full" src="/ProfilePic.jpg"
+                        alt="Profile picture of Saif Aldin Sunjaq.">
                     <div class="w-full border-b-7 border-highlight my-2">
                         <p class="text-body-font font-roboto-flex text-text">Saif Aldin Sunjaq</p>
                     </div>
@@ -62,7 +63,7 @@ export default {
                 &#60;&#47;&#62;
             </p>
         </div>
-    </section>
+    </main>
 </template>
 
 <style scoped></style>

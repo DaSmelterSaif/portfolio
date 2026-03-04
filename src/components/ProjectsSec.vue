@@ -17,7 +17,7 @@ export default {
     <!--// TODO - Make the images look distinct from the background. -->
     <!--// TODO - Find a third image, or replace the section with something different. -->
     <!--// TODO - Add gradients here using the utility classes here. -->
-    <section id="projects" class="bg-bg-dark md:px-10 px-10 md:py-20 sm:py-10 py-30">
+    <section id="projects" class="bg-bg-dark md:px-10 px-10 md:py-20 sm:py-10 py-30" aria-label="Featured Work">
         <div
             class="md:bg-radial-[at_50%_50%] bg-radial-[at_0%_50%] -ml-10 pl-10 from-gradient-glow from-15% to-transparent to-65%">
             <h2 class="font-inclusive-sans text-sec-title-font md:text-center text-text mb-4">
@@ -31,7 +31,8 @@ export default {
         <div
             class="flex lg:flex-row lg:items-start flex-col justify-center items-center sm:gap-30 gap-0 py-30 lg:bg-radial-[at_100%_50%] bg-transparent from-gradient-glow from-15% to-transparent to-65% lg:-mr-10 lg:pr-10">
             <Image src="images/campus-management-sys.jpg" alt="Campus management system UI." preview :pt="{
-                root: 'bg-bg aspect-16/10 min-w-41.25 flex-1 shadow-br-highlight border border-text-muted'
+                root: 'bg-bg aspect-16/10 min-w-41.25 flex-1 shadow-br-highlight border border-text-muted',
+                image: { loading: 'lazy' }
             }" />
             <div
                 class="flex flex-col items-start flex-1 mt-10 w-full lg:bg-none bg-radial-[at_0%_50%] from-gradient-glow from-20% to-transparent to-75% lg:ml-0 lg:pl-0 -ml-20 pl-10">
@@ -66,14 +67,16 @@ export default {
             </div>
             <Image src="images/tic-tac-toe-discord-bot.jpg"
                 alt="A discord server displaying the tic-tac-toe bot responding to the user's inputs." preview :pt="{
-                    root: 'bg-bg aspect-16/10 min-w-41.25 flex-1 shadow-br-highlight border border-text-muted'
+                    root: 'bg-bg aspect-16/10 min-w-41.25 flex-1 shadow-br-highlight border border-text-muted',
+                    image: { loading: 'lazy' }
                 }" />
         </div>
         <div
             class="flex lg:flex-row lg:items-start flex-col justify-center items-center sm:gap-30 gap-0 pt-30 lg:bg-radial-[at_100%_50%] bg-none from-gradient-glow from-15% to-transparent to-65% lg:-mr-10 lg:pr-10">
             <Image src="images/e-gaming-sustainability-competition.jpg" alt="A 2D web game with an underwater theme."
                 preview :pt="{
-                    root: 'bg-bg aspect-16/10 min-w-41.25 flex-1 shadow-br-highlight border border-text-muted'
+                    root: 'bg-bg aspect-16/10 min-w-41.25 flex-1 shadow-br-highlight border border-text-muted',
+                    image: { loading: 'lazy' }
                 }" />
             <div
                 class="flex flex-col items-start flex-1 mt-10 w-full lg:bg-none bg-radial-[at_0%_50%] from-gradient-glow from-20% to-transparent to-75% lg:ml-0 lg:pl-0 -ml-20 pl-10">

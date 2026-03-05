@@ -23,6 +23,7 @@ my web development and design experience.
 - [ ] Add colored "cards" and small images on "Design of This Website" section's card
 - [ ] Choose to change background color of "Core Skills" section's icons
 - [ ] Add contact form in "Get in Touch" section
+- [ ] Make link colors change when active, hovered, and focused
 
 ## Copyright Notice
 

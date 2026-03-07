@@ -1,12 +1,16 @@
 <script lang="ts">
 import ButtonLink from './generic_components/ButtonLink.vue';
+import Skeleton from 'primevue/skeleton';
 
 export default {
     data() {
-
+        return {
+            loaded: false,
+        }
     },
     components: {
         ButtonLink,
+        Skeleton
     },
 }
 </script>
@@ -46,8 +50,12 @@ export default {
             <div class="flex justify-center items-center"> <!-- bg-amber-300/30 -->
                 <div
                     class="xll:w-[23vw] 2xl:mt-[3vh] 2xl:ml-[8vw] 2xl:h-auto 2xl:w-97.75 2xl:aspect-391/557 xl:h-auto xl:w-90 xl:aspect-391/557 lg:mt-[9vh] lg:w-90 lg:ml-[6vw] lg:mr-0 w-full m-0 max-w-195.5 mx-[15vw]">
-                    <img class="w-full aspect-square rounded-full" src="/ProfilePic.jpg"
-                        alt="Profile picture of Saif Aldin Sunjaq.">
+                    <div class="w-full aspect-square"> <!-- img wrapper -->
+                        <Skeleton v-if="!loaded" shape="circle" height="100%" />
+                        <img class="w-full aspect-square rounded-full" src="/ProfilePic.jpg"
+                            alt="Profile picture of Saif Aldin Sunjaq." @load="loaded = true"
+                            :style="{ opacity: loaded ? 1 : 0, position: loaded ? 'static' : 'absolute' }">
+                    </div>
                     <div class="w-full border-b-7 border-highlight my-2">
                         <p class="text-body-font font-roboto-flex text-text">Saif Aldin Sunjaq</p>
                     </div>

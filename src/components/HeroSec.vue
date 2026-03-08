@@ -16,15 +16,8 @@ export default {
 </script>
 
 <template>
-    <!--// TODO - Look into max-width for image. -->
-    <!--// TODO - Look into square screen making the section large issue. -->
-    <!--// TODO - Fix spacing between headers and paragraphs. -->
     <main class="relative isolate">
-        <!--// TODO - Upload CV. -->
-        <!--// TODO - Make button component for elements that are not link. -->
-        <!--// TODO - Add blue gradients across the page. -->
-        <!--// TODO - Add download symbol. -->
-        <!-- TODO - Delete ButtonForm or keep it. -->
+        <!--// TODO - Delete ButtonForm or keep it. -->
         <div
             class="grid lg:grid-rows-1 lg:grid-cols-2 grid-rows-auto xll:px-56 lg:px-28 relative z-10 overflow-hidden bg-radial-[at_100%_0%] from-gradient-glow from-15% to-bg-dark to-65% xl:min-h-[calc(100vh-7.8125rem)] md:py-20 py-10">
             <div

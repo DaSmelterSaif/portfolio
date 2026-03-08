@@ -14,9 +14,6 @@ export default {
 
 <template>
     <!-- TODO - Change the structure ordering of images and titles+paragraphs, and make CSS control the order. -->
-    <!--// TODO - Make the images look distinct from the background. -->
-    <!--// TODO - Find a third image, or replace the section with something different. -->
-    <!--// TODO - Add gradients here using the utility classes here. -->
     <section id="projects" class="bg-bg-dark md:px-10 px-10 md:py-20 sm:py-10 py-30" aria-label="Featured Work">
         <div
             class="md:bg-radial-[at_50%_50%] bg-radial-[at_0%_50%] -ml-10 pl-10 from-gradient-glow from-15% to-transparent to-65%">

@@ -13,8 +13,7 @@ export default {
 <!-- I removed @layer base... and it's working now. WHAT THNKAJFHKAJ -->
 
 <template>
-    <!--// TODO - Fix the h2 header being too much close to the top. -->
-    <!-- TODO - Pick images for this sec. -->
+    <!--// TODO - Pick images for this sec. -->
     <!-- Beware, negative margin at first div. -->
     <section id="about-me" class="bg-bg-dark w-full flex 2xl:flex-row flex-col md:px-28 p-10 md:py-20 sm:py-10 py-30"
         aria-label="About Me">

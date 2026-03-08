@@ -19,11 +19,7 @@ export default {
      those specific values. I also prefer using text-align than flexbox.
      I have a preference for having margin for the entire section, and
      independant margin properties for the separate elements as needed. -->
-    <!--// TODO - Change hamburger icon. -->
-    <!--// TODO - Add underline to link buttons (except for LOGO) w/ transition. -->
-    <!--// TODO - Make the underline transition to fill on active. -->
-    <!--// TODO - Make the hamburger menu functional (on mobile). -->
-    <!-- TODO - Add a Logo. -->
+    <!--// TODO - Add a Logo. -->
     <nav class="relative flex flex-col">
         <div class="flex flex-row w-full md:h-31.25 h-24 bg-bg-db-light text-text select-none">
             <a href="/"

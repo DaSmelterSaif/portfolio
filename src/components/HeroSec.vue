@@ -54,7 +54,7 @@ export default {
                     </div>
                     <ul class="list-none text-body-font font-roboto-flex text-text-muted">
                         <li>Full-Stack Web Developer</li>
-                        <li>Software Engineer</li>
+                        <li>Software Developer</li>
                         <!-- <li>Frontend <span class="font-courier font-bold">&&</span> Backend</li> -->
                     </ul>
                 </div>

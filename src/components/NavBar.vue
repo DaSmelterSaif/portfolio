@@ -22,7 +22,7 @@ export default {
     <!--// TODO - Add a Logo. -->
     <nav class="relative flex flex-col">
         <div class="flex flex-row w-full md:h-31.25 h-24 bg-bg-db-light text-text select-none">
-            <a href="/"
+            <a href="./"
                 class="font-gasoek-one md:w-58.75 w-44 flex justify-center items-center text-[clamp(2rem,2.5vw+1rem,2.75rem)] bg-btn-focused active:bg-btn-clicked">SAIF</a>
             <div class="md:flex flex-row hidden lg:gap-0 gap-4 flex-1">
                 <a href="#about-me"
